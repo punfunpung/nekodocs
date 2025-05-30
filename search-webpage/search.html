@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>문서 검색</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: sans-serif; margin: 1em; }
+    #results { margin-top: 1em; }
+    .result-link { display: block; margin: 0.5em 0; word-break: break-all; }
+    input[type="text"] { width: 70vw; max-width: 400px; font-size: 1em; }
+    button { font-size: 1em; }
+    iframe {
+      width: 100%;
+      min-height: 300px;
+      height: 60vh;
+      border: 1px solid #ccc;
+      margin-top: 1em;
+      background: #fff;
+    }
+    @media (max-width: 600px) {
+      body { margin: 0.5em; }
+      iframe { height: 50vh; }
+    }
+  </style>
+</head>
+<body>
+  <h1>문서 검색</h1>
+  <input type="text" id="searchInput" placeholder="검색어 입력 (예: stats)">
+  <button onclick="search()">검색</button>
+  <div id="results"></div>
+  <iframe id="viewer" style="display:none; height:900px;"></iframe>
+  <script>
+    // 검색 대상 파일 목록 (실제 환경에서는 자동 생성 필요)
+    const files = [
+        "../api_client/Game.Scripts.BoxCollider.html",
+        "../api_client/Game.Scripts.Camera.html",
+        "../api_client/Game.Scripts.ChangeSlot.html",
+        "../api_client/Game.Scripts.Chat.html",
+        "../api_client/Game.Scripts.CircleCollider.html",
+        "../api_client/Game.Scripts.CustomSkill.html",
+        "../api_client/Game.Scripts.Diagnostics.FPSStat.html",
+        "../api_client/Game.Scripts.Diagnostics.GraphStat.html",
+        "../api_client/Game.Scripts.Diagnostics.html",
+        "../api_client/Game.Scripts.Diagnostics.RamStat.html",
+        "../api_client/Game.Scripts.Diagnostics.StatMonitor.html",
+        "../api_client/Game.Scripts.DropItem.html",
+        "../api_client/Game.Scripts.EventSystems.html",
+        "../api_client/Game.Scripts.EventSystems.IPointerHandler.html",
+        "../api_client/Game.Scripts.EventSystems.PointerEventData.html",
+        "../api_client/Game.Scripts.Field.html",
+        "../api_client/Game.Scripts.Graphics.Color.html",
+        "../api_client/Game.Scripts.Graphics.ColorBlock.html",
+        "../api_client/Game.Scripts.Graphics.Font.html",
+        "../api_client/Game.Scripts.Graphics.html",
+        "../api_client/Game.Scripts.Graphics.Point.html",
+        "../api_client/Game.Scripts.Graphics.Rect.html",
+        "../api_client/Game.Scripts.Graphics.RectOff.html",
+        "../api_client/Game.Scripts.Graphics.Sprite.html",
+        "../api_client/Game.Scripts.Graphics.SpriteAction.html",
+        "../api_client/Game.Scripts.Graphics.URLSprite.html",
+        "../api_client/Game.Scripts.html",
+        "../api_client/Game.Scripts.Input.html",
+        "../api_client/Game.Scripts.Input.KeyCode.html",
+        "../api_client/Game.Scripts.Lua.Dynamic.html",
+        "../api_client/Game.Scripts.Lua.Globals.html",
+        "../api_client/Game.Scripts.Lua.html",
+        "../api_client/Game.Scripts.Lua.Json.html",
+        "../api_client/Game.Scripts.Lua.Rand.html",
+        "../api_client/Game.Scripts.Lua.String.html",
+        "../api_client/Game.Scripts.MapTile.html",
+        "../api_client/Game.Scripts.MyPlayerUnit.html",
+        "../api_client/Game.Scripts.Panorama.html",
+        "../api_client/Game.Scripts.ParticleSystem.html",
+        "../api_client/Game.Scripts.Proxy.html",
+        "../api_client/Game.Scripts.Proxy.TBuff.html",
+        "../api_client/Game.Scripts.Rigidbody.html",
+        "../api_client/Game.Scripts.ScriptClient.html",
+        "../api_client/Game.Scripts.ScriptObject.html",
+        "../api_client/Game.Scripts.ScriptPlayerPrefs.html",
+        "../api_client/Game.Scripts.ScriptTween.html",
+        "../api_client/Game.Scripts.ScriptTweener.html",
+        "../api_client/Game.Scripts.ScriptTweening.html",
+        "../api_client/Game.Scripts.ScriptTweenParams.html",
+        "../api_client/Game.Scripts.ScriptTweenSequence.html",
+        "../api_client/Game.Scripts.System.EventPublisher.html",
+        "../api_client/Game.Scripts.System.html",
+        "../api_client/Game.Scripts.System.Time.html",
+        "../api_client/Game.Scripts.UI.BaseControl.html",
+        "../api_client/Game.Scripts.UI.Border.html",
+        "../api_client/Game.Scripts.UI.BuffPanel.html",
+        "../api_client/Game.Scripts.UI.Button.html",
+        "../api_client/Game.Scripts.UI.ChatBox.html",
+        "../api_client/Game.Scripts.UI.ChatInputUI.html",
+        "../api_client/Game.Scripts.UI.ChatPanel.html",
+        "../api_client/Game.Scripts.UI.ChatUI.html",
+        "../api_client/Game.Scripts.UI.Control.html",
+        "../api_client/Game.Scripts.UI.Controller.html",
+        "../api_client/Game.Scripts.UI.DpadController.html",
+        "../api_client/Game.Scripts.UI.EmoticonUI.html",
+        "../api_client/Game.Scripts.UI.GoldPanel.html",
+        "../api_client/Game.Scripts.UI.GridPanel.html",
+        "../api_client/Game.Scripts.UI.HorizontalPanel.html",
+        "../api_client/Game.Scripts.UI.html",
+        "../api_client/Game.Scripts.UI.Image.html",
+        "../api_client/Game.Scripts.UI.InputField.html",
+        "../api_client/Game.Scripts.UI.Minimap.html",
+        "../api_client/Game.Scripts.UI.Outline-1.html",
+        "../api_client/Game.Scripts.UI.Page.html",
+        "../api_client/Game.Scripts.UI.Panel.html",
+        "../api_client/Game.Scripts.UI.PartyPanel.html",
+        "../api_client/Game.Scripts.UI.PopupPlayerlist.html",
+        "../api_client/Game.Scripts.UI.QuickSlot.html",
+        "../api_client/Game.Scripts.UI.ScriptScreenUI.html",
+        "../api_client/Game.Scripts.UI.Scrollbar.html",
+        "../api_client/Game.Scripts.UI.ScrollPanel.html",
+        "../api_client/Game.Scripts.UI.Shadow.html",
+        "../api_client/Game.Scripts.UI.Slider.html",
+        "../api_client/Game.Scripts.UI.StartChat.html",
+        "../api_client/Game.Scripts.UI.Text.html",
+        "../api_client/Game.Scripts.UI.TopUI.html",
+        "../api_client/Game.Scripts.UI.URLImage.html",
+        "../api_client/Game.Scripts.UI.VerticalLayoutGroup.html",
+        "../api_client/Game.Scripts.UI.VerticalPanel.html",
+        "../api_client/Game.Scripts.Unit.html",
+        "../api_client/Game.Scripts.Utility.html",
+        "../api_client/main.html",
+        "../api_server/Commons.Server.API.Enum.ERedisDatabase.html",
+        "../api_server/Commons.Server.API.Enum.ERedisMemoryKey.html",
+        "../api_server/Commons.Server.API.Enum.html",
+        "../api_server/Commons.Server.API.html",
+        "../api_server/Commons.Server.html",
+        "../api_server/Commons.Server.Models.OpenAPI.html",
+        "../api_server/Commons.Server.Models.OpenAPI.IntToStringConverter.html",
+        "../api_server/Commons.Server.Models.OpenAPI.NullableDateTimeConverter.html",
+        "../api_server/Commons.Server.NekoEquipSlot.html",
+        "../api_server/Commons.Server.NekoItemOptionType.html",
+        "../api_server/Commons.Server.NekoItemType.html",
+        "../api_server/Commons.Server.NekoSkillType.html",
+        "../api_server/Commons.Server.NekoStats.html",
+        "../api_server/Commons.Server.Scripts.Graphics.Color.html",
+        "../api_server/Commons.Server.Scripts.Graphics.html",
+        "../api_server/Commons.Server.Scripts.Graphics.Point.html",
+        "../api_server/Commons.Server.Scripts.Graphics.Rect.html",
+        "../api_server/Commons.Server.Scripts.html",
+        "../api_server/Commons.Server.Scripts.Lua.Globals.html",
+        "../api_server/Commons.Server.Scripts.Lua.html",
+        "../api_server/Commons.Server.Scripts.Proxy.html",
+        "../api_server/Commons.Server.Scripts.Proxy.TItem.html",
+        "../api_server/Commons.Server.Scripts.ScriptClan.html",
+        "../api_server/Commons.Server.Scripts.ScriptDropItem.html",
+        "../api_server/Commons.Server.Scripts.ScriptEnemyUnitAI.html",
+        "../api_server/Commons.Server.Scripts.ScriptEventPublisher.html",
+        "../api_server/Commons.Server.Scripts.ScriptField.html",
+        "../api_server/Commons.Server.Scripts.ScriptNFT.html",
+        "../api_server/Commons.Server.Scripts.ScriptObject.html",
+        "../api_server/Commons.Server.Scripts.ScriptParty.html",
+        "../api_server/Commons.Server.Scripts.ScriptPetUnit.html",
+        "../api_server/Commons.Server.Scripts.ScriptPetUnitAI.html",
+        "../api_server/Commons.Server.Scripts.ScriptRankingRow.html",
+        "../api_server/Commons.Server.Scripts.ScriptRoomPlayer.html",
+        "../api_server/Commons.Server.Scripts.ScriptServer.html",
+        "../api_server/Commons.Server.Scripts.ScriptUnit.html",
+        "../api_server/Commons.Server.Scripts.ScriptUnitBuff.html",
+        "../api_server/Commons.Server.Scripts.ScriptUtility.html",
+        "../api_server/Commons.Server.StatusCode.html",
+        "../api_server/main.html",
+        "../api_server/network.html",
+        "../api_server/network.TGameAnimation.html",
+        "../api_server/network.TGameAnimationCommand.html",
+        "../api_server/network.TGameBuff.html",
+        "../api_server/network.TGameCharacter.html",
+        "../api_server/network.TGameCollection.html",
+        "../api_server/network.TGameCommonEvent.html",
+        "../api_server/network.TGameDropItem.html",
+        "../api_server/network.TGameItem.html",
+        "../api_server/network.TGameJob.html",
+        "../api_server/network.TGameLayoutPage.html",
+        "../api_server/network.TGameMapStub.html",
+        "../api_server/network.TGameMonster.html",
+        "../api_server/network.TGamePanorama.html",
+        "../api_server/network.TGameResource.html",
+        "../api_server/network.TGameSkill.html",
+        "../api_server/network.TGameSpriteAction.html",
+        "../api_server/network.TGameSpriteActionCell.html",
+        "../api_server/network.TGameStrings.html",
+        "../api_server/network.TGameTileset.html",
+        "../api_server/network.TItem.html",
+        "../api_server/network.TItemOption.html",
+        "../api_server/network.TOnlinePetData.html",
+        "../api_server/network.TQuickSlot.html"
+    ];
+
+    // 파일별로 미리 검색 키워드(소문자)를 지정 (실제 환경에서는 자동화 필요)
+    const fileKeywords = {
+      "../api_server/Commons.Server.NekoStats.html": ["stats", "stat", "네코스탯"],
+      "../api_client/Game.Scripts.ScriptClient.html": ["stats", "stat", "isShowStats", "showstats"],
+      // ... 필요시 추가 ...
+    };
+
+    function search() {
+      const query = document.getElementById('searchInput').value.trim().toLowerCase();
+      const resultsDiv = document.getElementById('results');
+      const viewer = document.getElementById('viewer');
+      resultsDiv.innerHTML = '';
+      viewer.style.display = 'none';
+
+      if (!query) return;
+
+      // 검색 결과 필터링
+      const matched = files.filter(f => {
+        const keywords = fileKeywords[f] || [];
+        return f.toLowerCase().includes(query) || keywords.some(k => k.includes(query));
+      });
+
+      if (matched.length === 0) {
+        resultsDiv.innerHTML = '<p>검색 결과가 없습니다.</p>';
+        return;
+      }
+
+      // 결과 목록 출력
+      matched.forEach(f => {
+        const link = document.createElement('a');
+        link.href = '#';
+        link.textContent = f;
+        link.className = 'result-link';
+        link.onclick = () => {
+          viewer.src = f;
+          viewer.style.display = 'block';
+          return false;
+        };
+        resultsDiv.appendChild(link);
+      });
+    }
+  </script>
+</body>
+</html>
