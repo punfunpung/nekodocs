@@ -1,0 +1,3829 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ParticleSystem
+ </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ParticleSystem
+ ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+  
+  
+  
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" id="logo" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../tutorials/intro.html" title="튜토리얼">튜토리얼</a>
+                      </li>
+                      <li>
+                          <a href="../api_server/main.html" title="서버 API">서버 API</a>
+                      </li>
+                      <li>
+                          <a href="../api_client/main.html" title="클라이언트 API">클라이언트 API</a>
+                      </li>
+                </ul>            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Game.Scripts.html" title="Game.Scripts" class="">Game.Scripts</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Game.Scripts.BoxCollider.html" title="BoxCollider" class="">BoxCollider</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Camera.html" title="Camera" class="">Camera</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.ChangeSlot.html" title="ChangeSlot" class="">ChangeSlot</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Chat.html" title="Chat" class="">Chat</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.CircleCollider.html" title="CircleCollider" class="">CircleCollider</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.CustomSkill.html" title="CustomSkill" class="">CustomSkill</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.DropItem.html" title="DropItem" class="">DropItem</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Field.html" title="Field" class="">Field</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Input.html" title="Input" class="">Input</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Input.KeyCode.html" title="Input.KeyCode" class="">Input.KeyCode</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.MapTile.html" title="MapTile" class="">MapTile</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.MyPlayerUnit.html" title="MyPlayerUnit" class="">MyPlayerUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Panorama.html" title="Panorama" class="">Panorama</a>
+                          </li>
+                          <li class="active">
+                            <a href="Game.Scripts.ParticleSystem.html" title="ParticleSystem" class="active">ParticleSystem</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Rigidbody.html" title="Rigidbody" class="">Rigidbody</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.ScriptClient.html" title="ScriptClient" class="">ScriptClient</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.ScriptObject.html" title="ScriptObject" class="">ScriptObject</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.ScriptPlayerPrefs.html" title="ScriptPlayerPrefs" class="">ScriptPlayerPrefs</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.ScriptTween.html" title="ScriptTween" class="">ScriptTween</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.ScriptTweener.html" title="ScriptTweener" class="">ScriptTweener</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.ScriptTweening.html" title="ScriptTweening" class="">ScriptTweening</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.ScriptTweenParams.html" title="ScriptTweenParams" class="">ScriptTweenParams</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.ScriptTweenSequence.html" title="ScriptTweenSequence" class="">ScriptTweenSequence</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Unit.html" title="Unit" class="">Unit</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Utility.html" title="Utility" class="">Utility</a>
+                          </li>
+                        </ul>                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Game.Scripts.Diagnostics.html" title="Game.Scripts.Diagnostics" class="">Game.Scripts.Diagnostics</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Game.Scripts.Diagnostics.FPSStat.html" title="FPSStat" class="">FPSStat</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Diagnostics.GraphStat.html" title="GraphStat" class="">GraphStat</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Diagnostics.RamStat.html" title="RamStat" class="">RamStat</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Diagnostics.StatMonitor.html" title="StatMonitor" class="">StatMonitor</a>
+                          </li>
+                        </ul>                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Game.Scripts.EventSystems.html" title="Game.Scripts.EventSystems" class="">Game.Scripts.EventSystems</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Game.Scripts.EventSystems.IPointerHandler.html" title="IPointerHandler" class="">IPointerHandler</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.EventSystems.PointerEventData.html" title="PointerEventData" class="">PointerEventData</a>
+                          </li>
+                        </ul>                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Game.Scripts.Graphics.html" title="Game.Scripts.Graphics" class="">Game.Scripts.Graphics</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Game.Scripts.Graphics.Color.html" title="Color" class="">Color</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Graphics.ColorBlock.html" title="ColorBlock" class="">ColorBlock</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Graphics.Font.html" title="Font" class="">Font</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Graphics.Point.html" title="Point" class="">Point</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Graphics.Rect.html" title="Rect" class="">Rect</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Graphics.RectOff.html" title="RectOff" class="">RectOff</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Graphics.Sprite.html" title="Sprite" class="">Sprite</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Graphics.SpriteAction.html" title="SpriteAction" class="">SpriteAction</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Graphics.URLSprite.html" title="URLSprite" class="">URLSprite</a>
+                          </li>
+                        </ul>                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Game.Scripts.Lua.html" title="Game.Scripts.Lua" class="">Game.Scripts.Lua</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Game.Scripts.Lua.Dynamic.html" title="Dynamic" class="">Dynamic</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Lua.Globals.html" title="Globals" class="">Globals</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Lua.Json.html" title="Json" class="">Json</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Lua.Rand.html" title="Rand" class="">Rand</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.Lua.String.html" title="String" class="">String</a>
+                          </li>
+                        </ul>                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Game.Scripts.Proxy.html" title="Game.Scripts.Proxy" class="">Game.Scripts.Proxy</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Game.Scripts.Proxy.TBuff.html" title="TBuff" class="">TBuff</a>
+                          </li>
+                        </ul>                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Game.Scripts.System.html" title="Game.Scripts.System" class="">Game.Scripts.System</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Game.Scripts.System.EventPublisher.html" title="EventPublisher" class="">EventPublisher</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.System.Time.html" title="Time" class="">Time</a>
+                          </li>
+                        </ul>                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Game.Scripts.UI.html" title="Game.Scripts.UI" class="">Game.Scripts.UI</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Game.Scripts.UI.BaseControl.html" title="BaseControl" class="">BaseControl</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Border.html" title="Border" class="">Border</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.BuffPanel.html" title="BuffPanel" class="">BuffPanel</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Button.html" title="Button" class="">Button</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.ChatBox.html" title="ChatBox" class="">ChatBox</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.ChatInputUI.html" title="ChatInputUI" class="">ChatInputUI</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.ChatPanel.html" title="ChatPanel" class="">ChatPanel</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.ChatUI.html" title="ChatUI" class="">ChatUI</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Control.html" title="Control" class="">Control</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Controller.html" title="Controller" class="">Controller</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.DpadController.html" title="DpadController" class="">DpadController</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.EmoticonUI.html" title="EmoticonUI" class="">EmoticonUI</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.GoldPanel.html" title="GoldPanel" class="">GoldPanel</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.GridPanel.html" title="GridPanel" class="">GridPanel</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.HorizontalPanel.html" title="HorizontalPanel" class="">HorizontalPanel</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Image.html" title="Image" class="">Image</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.InputField.html" title="InputField" class="">InputField</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Minimap.html" title="Minimap" class="">Minimap</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Outline-1.html" title="Outline&lt;T&gt;" class="">Outline&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Page.html" title="Page" class="">Page</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Panel.html" title="Panel" class="">Panel</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.PartyPanel.html" title="PartyPanel" class="">PartyPanel</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.PopupPlayerlist.html" title="PopupPlayerlist" class="">PopupPlayerlist</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.QuickSlot.html" title="QuickSlot" class="">QuickSlot</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.ScriptScreenUI.html" title="ScriptScreenUI" class="">ScriptScreenUI</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Scrollbar.html" title="Scrollbar" class="">Scrollbar</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.ScrollPanel.html" title="ScrollPanel" class="">ScrollPanel</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Shadow.html" title="Shadow" class="">Shadow</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Slider.html" title="Slider" class="">Slider</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.StartChat.html" title="StartChat" class="">StartChat</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.Text.html" title="Text" class="">Text</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.TopUI.html" title="TopUI" class="">TopUI</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.URLImage.html" title="URLImage" class="">URLImage</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.VerticalLayoutGroup.html" title="VerticalLayoutGroup" class="">VerticalLayoutGroup</a>
+                          </li>
+                          <li class="">
+                            <a href="Game.Scripts.UI.VerticalPanel.html" title="VerticalPanel" class="">VerticalPanel</a>
+                          </li>
+                        </ul>                    </li>
+                  </ul>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Game.Scripts.ParticleSystem">
+
+
+  <h1 id="Game_Scripts_ParticleSystem" data-uid="Game.Scripts.ParticleSystem" class="text-break">Class ParticleSystem
+</h1>
+  <div class="markdown level0 summary"><p>파티클을 재생하는 스크립트</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>상속</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><a class="xref" href="Game.Scripts.ScriptTweening.html">ScriptTweening</a></div>
+    <div class="level2"><a class="xref" href="Game.Scripts.UI.BaseControl.html">BaseControl</a></div>
+    <div class="level3"><a class="xref" href="Game.Scripts.UI.Control.html">Control</a></div>
+    <div class="level4"><span class="xref">ParticleSystem</span></div>
+  </div>
+  <!-- <div class="inheritedMembers">
+    <h5>상속된 멤버</h5>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.style" text="Control.style" alt="Game.Scripts.UI.Control.style"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.children" text="Control.children" alt="Game.Scripts.UI.Control.children"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.parent" text="Control.parent" alt="Game.Scripts.UI.Control.parent"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.enabled" text="Control.enabled" alt="Game.Scripts.UI.Control.enabled"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.orderIndex" text="Control.orderIndex" alt="Game.Scripts.UI.Control.orderIndex"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.showOnTop" text="Control.showOnTop" alt="Game.Scripts.UI.Control.showOnTop"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.masked" text="Control.masked" alt="Game.Scripts.UI.Control.masked"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.SetParent(Game.Scripts.UI.Control)" text="Control.SetParent(Control)" alt="Game.Scripts.UI.Control.SetParent(Game.Scripts.UI.Control)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.AddChild(Game.Scripts.UI.Control)" text="Control.AddChild(Control)" alt="Game.Scripts.UI.Control.AddChild(Game.Scripts.UI.Control)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.GetChild(System.String)" text="Control.GetChild(string)" alt="Game.Scripts.UI.Control.GetChild(string)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.RemoveChild(Game.Scripts.UI.Control)" text="Control.RemoveChild(Control)" alt="Game.Scripts.UI.Control.RemoveChild(Game.Scripts.UI.Control)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.OrderToFirst" text="Control.OrderToFirst()" alt="Game.Scripts.UI.Control.OrderToFirst()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.OrderToLast" text="Control.OrderToLast()" alt="Game.Scripts.UI.Control.OrderToLast()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.SetOrderIndex(System.Int32)" text="Control.SetOrderIndex(int)" alt="Game.Scripts.UI.Control.SetOrderIndex(int)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.GetOrderIndex" text="Control.GetOrderIndex()" alt="Game.Scripts.UI.Control.GetOrderIndex()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.ForceRebuildLayoutImmediate" text="Control.ForceRebuildLayoutImmediate()" alt="Game.Scripts.UI.Control.ForceRebuildLayoutImmediate()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.AttachToUnit(Game.Scripts.Unit)" text="Control.AttachToUnit(Unit)" alt="Game.Scripts.UI.Control.AttachToUnit(Game.Scripts.Unit)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.AttachToUnitID(System.Int64)" text="Control.AttachToUnitID(long)" alt="Game.Scripts.UI.Control.AttachToUnitID(long)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.Destroy" text="Control.Destroy()" alt="Game.Scripts.UI.Control.Destroy()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.Control.Clone" text="Control.Clone()" alt="Game.Scripts.UI.Control.Clone()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.name" text="BaseControl.name" alt="Game.Scripts.UI.BaseControl.name"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.border" text="BaseControl.border" alt="Game.Scripts.UI.BaseControl.border"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.shadow" text="BaseControl.shadow" alt="Game.Scripts.UI.BaseControl.shadow"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.borderEnabled" text="BaseControl.borderEnabled" alt="Game.Scripts.UI.BaseControl.borderEnabled"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.borderDistance" text="BaseControl.borderDistance" alt="Game.Scripts.UI.BaseControl.borderDistance"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.borderColor" text="BaseControl.borderColor" alt="Game.Scripts.UI.BaseControl.borderColor"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.anchor" text="BaseControl.anchor" alt="Game.Scripts.UI.BaseControl.anchor"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.position" text="BaseControl.position" alt="Game.Scripts.UI.BaseControl.position"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.x" text="BaseControl.x" alt="Game.Scripts.UI.BaseControl.x"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.y" text="BaseControl.y" alt="Game.Scripts.UI.BaseControl.y"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.pivot" text="BaseControl.pivot" alt="Game.Scripts.UI.BaseControl.pivot"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.sizeDelta" text="BaseControl.sizeDelta" alt="Game.Scripts.UI.BaseControl.sizeDelta"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.scaleX" text="BaseControl.scaleX" alt="Game.Scripts.UI.BaseControl.scaleX"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.scaleY" text="BaseControl.scaleY" alt="Game.Scripts.UI.BaseControl.scaleY"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.width" text="BaseControl.width" alt="Game.Scripts.UI.BaseControl.width"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.height" text="BaseControl.height" alt="Game.Scripts.UI.BaseControl.height"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.rect" text="BaseControl.rect" alt="Game.Scripts.UI.BaseControl.rect"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.visible" text="BaseControl.visible" alt="Game.Scripts.UI.BaseControl.visible"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.opacity" text="BaseControl.opacity" alt="Game.Scripts.UI.BaseControl.opacity"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.rotation" text="BaseControl.rotation" alt="Game.Scripts.UI.BaseControl.rotation"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.ignoreLayout" text="BaseControl.ignoreLayout" alt="Game.Scripts.UI.BaseControl.ignoreLayout"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.preferredWidth" text="BaseControl.preferredWidth" alt="Game.Scripts.UI.BaseControl.preferredWidth"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.preferredHeight" text="BaseControl.preferredHeight" alt="Game.Scripts.UI.BaseControl.preferredHeight"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.GetInstanceID" text="BaseControl.GetInstanceID()" alt="Game.Scripts.UI.BaseControl.GetInstanceID()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.ToggleVisible" text="BaseControl.ToggleVisible()" alt="Game.Scripts.UI.BaseControl.ToggleVisible()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.SetOpacity(System.Int32)" text="BaseControl.SetOpacity(int)" alt="Game.Scripts.UI.BaseControl.SetOpacity(int)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.UI.BaseControl.SetSizeFit(System.Boolean,System.Boolean)" text="BaseControl.SetSizeFit(bool, bool)" alt="Game.Scripts.UI.BaseControl.SetSizeFit(bool, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOKill(System.Boolean)" text="ScriptTweening.DOKill(bool)" alt="Game.Scripts.ScriptTweening.DOKill(bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOFlip" text="ScriptTweening.DOFlip()" alt="Game.Scripts.ScriptTweening.DOFlip()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOGoto(System.Single,System.Boolean)" text="ScriptTweening.DOGoto(float, bool)" alt="Game.Scripts.ScriptTweening.DOGoto(float, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOPause" text="ScriptTweening.DOPause()" alt="Game.Scripts.ScriptTweening.DOPause()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOPlay" text="ScriptTweening.DOPlay()" alt="Game.Scripts.ScriptTweening.DOPlay()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOPlayBackward" text="ScriptTweening.DOPlayBackward()" alt="Game.Scripts.ScriptTweening.DOPlayBackward()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOPlayForward" text="ScriptTweening.DOPlayForward()" alt="Game.Scripts.ScriptTweening.DOPlayForward()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DORestart" text="ScriptTweening.DORestart()" alt="Game.Scripts.ScriptTweening.DORestart()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DORewind" text="ScriptTweening.DORewind()" alt="Game.Scripts.ScriptTweening.DORewind()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOTogglePause" text="ScriptTweening.DOTogglePause()" alt="Game.Scripts.ScriptTweening.DOTogglePause()"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOSpiral(Game.Scripts.Graphics.Point,Game.Scripts.Graphics.Point,System.Single,System.Int32,System.Boolean)" text="ScriptTweening.DOSpiral(Point, Point, float, int, bool)" alt="Game.Scripts.ScriptTweening.DOSpiral(Game.Scripts.Graphics.Point, Game.Scripts.Graphics.Point, float, int, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOOrbit(Game.Scripts.Graphics.Point,System.Single,System.Single,System.Boolean,System.Boolean)" text="ScriptTweening.DOOrbit(Point, float, float, bool, bool)" alt="Game.Scripts.ScriptTweening.DOOrbit(Game.Scripts.Graphics.Point, float, float, bool, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOSlerp(Game.Scripts.Graphics.Point,Game.Scripts.Graphics.Point,System.Single)" text="ScriptTweening.DOSlerp(Point, Point, float)" alt="Game.Scripts.ScriptTweening.DOSlerp(Game.Scripts.Graphics.Point, Game.Scripts.Graphics.Point, float)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOMove(Game.Scripts.Graphics.Point,System.Single,System.Boolean)" text="ScriptTweening.DOMove(Point, float, bool)" alt="Game.Scripts.ScriptTweening.DOMove(Game.Scripts.Graphics.Point, float, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DORotate(System.Single,System.Single,System.Int32)" text="ScriptTweening.DORotate(float, float, int)" alt="Game.Scripts.ScriptTweening.DORotate(float, float, int)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOPunch(Game.Scripts.Graphics.Point,System.Single,System.Int32,System.Single,System.Boolean)" text="ScriptTweening.DOPunch(Point, float, int, float, bool)" alt="Game.Scripts.ScriptTweening.DOPunch(Game.Scripts.Graphics.Point, float, int, float, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOPunchRotate(System.Single,System.Single,System.Int32,System.Single)" text="ScriptTweening.DOPunchRotate(float, float, int, float)" alt="Game.Scripts.ScriptTweening.DOPunchRotate(float, float, int, float)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOPunchScale(Game.Scripts.Graphics.Point,System.Single,System.Int32,System.Single)" text="ScriptTweening.DOPunchScale(Point, float, int, float)" alt="Game.Scripts.ScriptTweening.DOPunchScale(Game.Scripts.Graphics.Point, float, int, float)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOScale(Game.Scripts.Graphics.Point,System.Single)" text="ScriptTweening.DOScale(Point, float)" alt="Game.Scripts.ScriptTweening.DOScale(Game.Scripts.Graphics.Point, float)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOJump(Game.Scripts.Graphics.Point,System.Single,System.Int32,System.Single,System.Boolean)" text="ScriptTweening.DOJump(Point, float, int, float, bool)" alt="Game.Scripts.ScriptTweening.DOJump(Game.Scripts.Graphics.Point, float, int, float, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOShake(System.Single,System.Single,System.Int32,System.Single,System.Boolean,System.Boolean)" text="ScriptTweening.DOShake(float, float, int, float, bool, bool)" alt="Game.Scripts.ScriptTweening.DOShake(float, float, int, float, bool, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOShakeRotate(System.Single,System.Single,System.Int32,System.Single,System.Boolean)" text="ScriptTweening.DOShakeRotate(float, float, int, float, bool)" alt="Game.Scripts.ScriptTweening.DOShakeRotate(float, float, int, float, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOShakeScale(System.Single,System.Single,System.Int32,System.Single,System.Boolean)" text="ScriptTweening.DOShakeScale(float, float, int, float, bool)" alt="Game.Scripts.ScriptTweening.DOShakeScale(float, float, int, float, bool)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOPath(Game.Scripts.Graphics.Point[],System.Single)" text="ScriptTweening.DOPath(Point[], float)" alt="Game.Scripts.ScriptTweening.DOPath(Game.Scripts.Graphics.Point[], float)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOColor(Game.Scripts.Graphics.Color,System.Single)" text="ScriptTweening.DOColor(Color, float)" alt="Game.Scripts.ScriptTweening.DOColor(Game.Scripts.Graphics.Color, float)"/>
+    </div>
+    <div>
+      <xref uid="Game.Scripts.ScriptTweening.DOPivot(Game.Scripts.Graphics.Point,System.Single)" text="ScriptTweening.DOPivot(Point, float)" alt="Game.Scripts.ScriptTweening.DOPivot(Game.Scripts.Graphics.Point, float)"/>
+    </div>
+  </div> -->
+  <h6><strong>네임스페이스</strong>: <span class="xref">Game</span>.<a class="xref" href="Game.Scripts.html">Scripts</a></h6>
+  <h6><strong>어셈블리</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Game_Scripts_ParticleSystem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MoonSharpUserData]
+public class ParticleSystem : Control</code></pre>
+  </div>
+  <h3 id="properties">프로퍼티
+</h3>
+
+
+  <a id="Game_Scripts_ParticleSystem_aligntoDirection_" data-uid="Game.Scripts.ParticleSystem.aligntoDirection*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_aligntoDirection" data-uid="Game.Scripts.ParticleSystem.aligntoDirection">aligntoDirection</h4>
+  <div class="markdown level1 summary"><p>초기 이동방향을 기준으로 파티클 방향지정</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool aligntoDirection { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_alphaAffectsParticles_" data-uid="Game.Scripts.ParticleSystem.alphaAffectsParticles*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_alphaAffectsParticles" data-uid="Game.Scripts.ParticleSystem.alphaAffectsParticles">alphaAffectsParticles</h4>
+  <div class="markdown level1 summary"><p>파티클 알파에 텍스처 알파를 곱합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool alphaAffectsParticles { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_angle_" data-uid="Game.Scripts.ParticleSystem.angle*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_angle" data-uid="Game.Scripts.ParticleSystem.angle">angle</h4>
+  <div class="markdown level1 summary"><p>모양의 각도</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float angle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_arc_" data-uid="Game.Scripts.ParticleSystem.arc*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_arc" data-uid="Game.Scripts.ParticleSystem.arc">arc</h4>
+  <div class="markdown level1 summary"><p>모양을 형성하는 전체 원의 각도 비율</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float arc { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_arcMode_" data-uid="Game.Scripts.ParticleSystem.arcMode*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_arcMode" data-uid="Game.Scripts.ParticleSystem.arcMode">arcMode</h4>
+  <div class="markdown level1 summary"><p>원 주위에 파티클을 생성하는 방법
+Random = 0,
+Loop = 1,
+PingPong = 2
+BurstSpread = 3</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int arcMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_arcSpeed_" data-uid="Game.Scripts.ParticleSystem.arcSpeed*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_arcSpeed" data-uid="Game.Scripts.ParticleSystem.arcSpeed">arcSpeed</h4>
+  <div class="markdown level1 summary"><p>방출 위치가 원호를 따라움직이는 속도</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float arcSpeed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_arcSpread_" data-uid="Game.Scripts.ParticleSystem.arcSpread*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_arcSpread" data-uid="Game.Scripts.ParticleSystem.arcSpread">arcSpread</h4>
+  <div class="markdown level1 summary"><p>0.0 ~ 1.0 파티클이 생성될 수 있는 원호 주위의 분리 간격 0은 원호주위의 어디에서나 생성,0.1 로 설정시 모양 주위 10%간격으로 생성</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float arcSpread { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_autoRandomSeed_" data-uid="Game.Scripts.ParticleSystem.autoRandomSeed*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_autoRandomSeed" data-uid="Game.Scripts.ParticleSystem.autoRandomSeed">autoRandomSeed</h4>
+  <div class="markdown level1 summary"><p>true : 재생마다 파티클이 조금씩 달라짐,false 파티클이 같아보임</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool autoRandomSeed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_bilinearFiltering_" data-uid="Game.Scripts.ParticleSystem.bilinearFiltering*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_bilinearFiltering" data-uid="Game.Scripts.ParticleSystem.bilinearFiltering">bilinearFiltering</h4>
+  <div class="markdown level1 summary"><p>텍스쳐를 읽어올때 텍스쳐 크기에 관계없이 인접 샘플4개를 결합하여 더욱 부드럽게 변경합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool bilinearFiltering { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_boxThicknessX_" data-uid="Game.Scripts.ParticleSystem.boxThicknessX*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_boxThicknessX" data-uid="Game.Scripts.ParticleSystem.boxThicknessX">boxThicknessX</h4>
+  <div class="markdown level1 summary"><p>파티클을 방출하는 체적 비율입니다.
+값을 0으로 설정하면 원의 바깥 가장자리에서 파티클이 방출됩니다.
+값을 1로 설정하면 전체 영역에서 파티클이 방출됩니다.
+0와 1 사이의 값을 지정하면 파티클을 방출할 영역의 비율을 조절할 수 있습니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float boxThicknessX { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_boxThicknessY_" data-uid="Game.Scripts.ParticleSystem.boxThicknessY*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_boxThicknessY" data-uid="Game.Scripts.ParticleSystem.boxThicknessY">boxThicknessY</h4>
+  <div class="markdown level1 summary"><p>파티클을 재생하는 스크립트</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float boxThicknessY { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_boxThicknessZ_" data-uid="Game.Scripts.ParticleSystem.boxThicknessZ*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_boxThicknessZ" data-uid="Game.Scripts.ParticleSystem.boxThicknessZ">boxThicknessZ</h4>
+  <div class="markdown level1 summary"><p>파티클을 재생하는 스크립트</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float boxThicknessZ { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_clipChannel_" data-uid="Game.Scripts.ParticleSystem.clipChannel*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_clipChannel" data-uid="Game.Scripts.ParticleSystem.clipChannel">clipChannel</h4>
+  <div class="markdown level1 summary"><p>파티클 폐기에 사용하는 텍스처의 채널</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int clipChannel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_clipThreshold_" data-uid="Game.Scripts.ParticleSystem.clipThreshold*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_clipThreshold" data-uid="Game.Scripts.ParticleSystem.clipThreshold">clipThreshold</h4>
+  <div class="markdown level1 summary"><p>0.0 ~ 1.0 파티클을 텍스처상의 포지션에 매핑할때 이 임계값 이하의 픽셀 컬러는 모두 폐기</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float clipThreshold { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_coloraffectsParticles_" data-uid="Game.Scripts.ParticleSystem.coloraffectsParticles*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_coloraffectsParticles" data-uid="Game.Scripts.ParticleSystem.coloraffectsParticles">coloraffectsParticles</h4>
+  <div class="markdown level1 summary"><p>파티클 컬러에 텍스처 컬러를 곱합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool coloraffectsParticles { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_colorOverLifeTime_" data-uid="Game.Scripts.ParticleSystem.colorOverLifeTime*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_colorOverLifeTime" data-uid="Game.Scripts.ParticleSystem.colorOverLifeTime">colorOverLifeTime</h4>
+  <div class="markdown level1 summary"><p>수명에 따른 컬러 조정 설정 활성화/비활성화</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool colorOverLifeTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_colorOverLifeTimeMode_" data-uid="Game.Scripts.ParticleSystem.colorOverLifeTimeMode*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_colorOverLifeTimeMode" data-uid="Game.Scripts.ParticleSystem.colorOverLifeTimeMode">colorOverLifeTimeMode</h4>
+  <div class="markdown level1 summary"><p>기울기 색깔 모드 설정
+Blend = 0
+Fixed = 1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int colorOverLifeTimeMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_deltaTime_" data-uid="Game.Scripts.ParticleSystem.deltaTime*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_deltaTime" data-uid="Game.Scripts.ParticleSystem.deltaTime">deltaTime</h4>
+  <div class="markdown level1 summary"><p>기본 게임의 시간의 영향 여부 true 시간영향 받음 false 안받음 예)일시정지부분 에서 사용가능</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool deltaTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_donutRadius_" data-uid="Game.Scripts.ParticleSystem.donutRadius*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_donutRadius" data-uid="Game.Scripts.ParticleSystem.donutRadius">donutRadius</h4>
+  <div class="markdown level1 summary"><p>도넛의 반지름</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float donutRadius { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_duration_" data-uid="Game.Scripts.ParticleSystem.duration*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_duration" data-uid="Game.Scripts.ParticleSystem.duration">duration</h4>
+  <div class="markdown level1 summary"><p>지속시간</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float duration { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_emissionEnable_" data-uid="Game.Scripts.ParticleSystem.emissionEnable*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_emissionEnable" data-uid="Game.Scripts.ParticleSystem.emissionEnable">emissionEnable</h4>
+  <div class="markdown level1 summary"><p>파티클 방사설정 활성화 비활성화</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool emissionEnable { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_emissionRate_" data-uid="Game.Scripts.ParticleSystem.emissionRate*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_emissionRate" data-uid="Game.Scripts.ParticleSystem.emissionRate">emissionRate</h4>
+  <div class="markdown level1 summary"><p>방사 시스템 사용 빈도</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float emissionRate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_enableEmission_" data-uid="Game.Scripts.ParticleSystem.enableEmission*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_enableEmission" data-uid="Game.Scripts.ParticleSystem.enableEmission">enableEmission</h4>
+  <div class="markdown level1 summary"><p>방사 시스템 사용 설정</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool enableEmission { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_flipRotation_" data-uid="Game.Scripts.ParticleSystem.flipRotation*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_flipRotation" data-uid="Game.Scripts.ParticleSystem.flipRotation">flipRotation</h4>
+  <div class="markdown level1 summary"><p>0.0 ~ 1.0 뒤집기</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float flipRotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_gravityModifier_" data-uid="Game.Scripts.ParticleSystem.gravityModifier*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_gravityModifier" data-uid="Game.Scripts.ParticleSystem.gravityModifier">gravityModifier</h4>
+  <div class="markdown level1 summary"><p>중력 값 조정 0 일시 중력 적용 안됨</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float gravityModifier { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_isEmitting_" data-uid="Game.Scripts.ParticleSystem.isEmitting*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_isEmitting" data-uid="Game.Scripts.ParticleSystem.isEmitting">isEmitting</h4>
+  <div class="markdown level1 summary"><p>파티클을 재생하는 스크립트</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isEmitting { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_isPaused_" data-uid="Game.Scripts.ParticleSystem.isPaused*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_isPaused" data-uid="Game.Scripts.ParticleSystem.isPaused">isPaused</h4>
+  <div class="markdown level1 summary"><p>일시정지여부</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPaused { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_isPlaying_" data-uid="Game.Scripts.ParticleSystem.isPlaying*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_isPlaying" data-uid="Game.Scripts.ParticleSystem.isPlaying">isPlaying</h4>
+  <div class="markdown level1 summary"><p>플레이여부</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isPlaying { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_isStopped_" data-uid="Game.Scripts.ParticleSystem.isStopped*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_isStopped" data-uid="Game.Scripts.ParticleSystem.isStopped">isStopped</h4>
+  <div class="markdown level1 summary"><p>아예멈춰있는지 여부</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isStopped { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_length_" data-uid="Game.Scripts.ParticleSystem.length*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_length" data-uid="Game.Scripts.ParticleSystem.length">length</h4>
+  <div class="markdown level1 summary"><p>원뿔의 길이 coneVolume 선택시 사용가능</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float length { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_looping_" data-uid="Game.Scripts.ParticleSystem.looping*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_looping" data-uid="Game.Scripts.ParticleSystem.looping">looping</h4>
+  <div class="markdown level1 summary"><p>반복 여부</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool looping { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_material_" data-uid="Game.Scripts.ParticleSystem.material*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_material" data-uid="Game.Scripts.ParticleSystem.material">material</h4>
+  <div class="markdown level1 summary"><p>재질설정 0 : Default_Particle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int material { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_maxParticles_" data-uid="Game.Scripts.ParticleSystem.maxParticles*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_maxParticles" data-uid="Game.Scripts.ParticleSystem.maxParticles">maxParticles</h4>
+  <div class="markdown level1 summary"><p>최대 파티클 수</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxParticles { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_maxParticleSize_" data-uid="Game.Scripts.ParticleSystem.maxParticleSize*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_maxParticleSize" data-uid="Game.Scripts.ParticleSystem.maxParticleSize">maxParticleSize</h4>
+  <div class="markdown level1 summary"><p>최대 파티클 크기 Billboard 모드 에서 적용</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float maxParticleSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_mesh_" data-uid="Game.Scripts.ParticleSystem.mesh*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_mesh" data-uid="Game.Scripts.ParticleSystem.mesh">mesh</h4>
+  <div class="markdown level1 summary"><p>메쉬 변경
+Cube : 0
+Capsule : 1
+Cylinder : 2
+Plane : 3
+Sphere : 4
+Quad : 5</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int mesh { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_meshType_" data-uid="Game.Scripts.ParticleSystem.meshType*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_meshType" data-uid="Game.Scripts.ParticleSystem.meshType">meshType</h4>
+  <div class="markdown level1 summary"><p>메쉬 타입
+Vertex = 0,
+Edge = 1,
+Triangle = 2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int meshType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_minParticleSize_" data-uid="Game.Scripts.ParticleSystem.minParticleSize*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_minParticleSize" data-uid="Game.Scripts.ParticleSystem.minParticleSize">minParticleSize</h4>
+  <div class="markdown level1 summary"><p>최소 파티클 크기 Billboard 모드 에서 적용</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float minParticleSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_normalDirection_" data-uid="Game.Scripts.ParticleSystem.normalDirection*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_normalDirection" data-uid="Game.Scripts.ParticleSystem.normalDirection">normalDirection</h4>
+  <div class="markdown level1 summary"><p>조명 노멀의 바이어스입니다. 값이1.0 노멀이 카메라를 향하고,0이면 화면중앙을 향합니다.(빌보드 모드만 해당)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float normalDirection { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_normalOffset_" data-uid="Game.Scripts.ParticleSystem.normalOffset*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_normalOffset" data-uid="Game.Scripts.ParticleSystem.normalOffset">normalOffset</h4>
+  <div class="markdown level1 summary"><p>그림 표면에서 이거리만큼 떨어진 곳에서 파티클을 방출합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float normalOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_particleCount_" data-uid="Game.Scripts.ParticleSystem.particleCount*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_particleCount" data-uid="Game.Scripts.ParticleSystem.particleCount">particleCount</h4>
+  <div class="markdown level1 summary"><p>파티클 갯수</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int particleCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_pivotX_" data-uid="Game.Scripts.ParticleSystem.pivotX*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_pivotX" data-uid="Game.Scripts.ParticleSystem.pivotX">pivotX</h4>
+  <div class="markdown level1 summary"><p>회전하는 파티클의 중심으로 사용하는 피벗 포인트x.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float pivotX { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_pivotY_" data-uid="Game.Scripts.ParticleSystem.pivotY*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_pivotY" data-uid="Game.Scripts.ParticleSystem.pivotY">pivotY</h4>
+  <div class="markdown level1 summary"><p>회전하는 파티클의 중심으로 사용하는 피벗 포인트y.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float pivotY { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_pivotZ_" data-uid="Game.Scripts.ParticleSystem.pivotZ*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_pivotZ" data-uid="Game.Scripts.ParticleSystem.pivotZ">pivotZ</h4>
+  <div class="markdown level1 summary"><p>회전하는 파티클의 중심으로 사용하는 피벗 포인트z.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float pivotZ { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_preWarm_" data-uid="Game.Scripts.ParticleSystem.preWarm*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_preWarm" data-uid="Game.Scripts.ParticleSystem.preWarm">preWarm</h4>
+  <div class="markdown level1 summary"><p>전체 주기를 한번 완료한것처럼 초기화 Looping 활성화시 작동</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool preWarm { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_radius_" data-uid="Game.Scripts.ParticleSystem.radius*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_radius" data-uid="Game.Scripts.ParticleSystem.radius">radius</h4>
+  <div class="markdown level1 summary"><p>모양 반지름</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float radius { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_radiusThickness_" data-uid="Game.Scripts.ParticleSystem.radiusThickness*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_radiusThickness" data-uid="Game.Scripts.ParticleSystem.radiusThickness">radiusThickness</h4>
+  <div class="markdown level1 summary"><p>반지름 두께</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float radiusThickness { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_randomizeDirection_" data-uid="Game.Scripts.ParticleSystem.randomizeDirection*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_randomizeDirection" data-uid="Game.Scripts.ParticleSystem.randomizeDirection">randomizeDirection</h4>
+  <div class="markdown level1 summary"><p>0.0 ~ 1.0 파티클 방향이 무작위 방향이 되도록 합니다.0은 영향없음, 1은 파티클방향이 무작위로 변경됩니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float randomizeDirection { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_randomizePosition_" data-uid="Game.Scripts.ParticleSystem.randomizePosition*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_randomizePosition" data-uid="Game.Scripts.ParticleSystem.randomizePosition">randomizePosition</h4>
+  <div class="markdown level1 summary"><p>파티클을 지정된 값까지 무작위한 양만큼 이동합니다. 다른값으로 설정하면 생성위치가 무작성성이 적용됩니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float randomizePosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_rateOverDistance_" data-uid="Game.Scripts.ParticleSystem.rateOverDistance*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_rateOverDistance" data-uid="Game.Scripts.ParticleSystem.rateOverDistance">rateOverDistance</h4>
+  <div class="markdown level1 summary"><p>파티클이 이동한 거리당 발생되는 수</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float rateOverDistance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_rateOverTime_" data-uid="Game.Scripts.ParticleSystem.rateOverTime*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_rateOverTime" data-uid="Game.Scripts.ParticleSystem.rateOverTime">rateOverTime</h4>
+  <div class="markdown level1 summary"><p>시간 단위당 방출되는 파티클의 수</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float rateOverTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_renderAlignment_" data-uid="Game.Scripts.ParticleSystem.renderAlignment*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_renderAlignment" data-uid="Game.Scripts.ParticleSystem.renderAlignment">renderAlignment</h4>
+  <div class="markdown level1 summary"><p>파티클 빌보드가 어느 방향을 향하고 있는지 선택합니다.
+View = 0, 카메라 평면 향합니다.
+World = 1, 월드 축과 정렬됩니다.
+Local = 2, 해당 게임 오브젝트의 Transform 컴포넌트에 따라 정렬됩니다.
+Facing = 3,카메라 게임 오브젝트의 정면을 향합니다.
+Velocity = 4</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int renderAlignment { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_renderMode_" data-uid="Game.Scripts.ParticleSystem.renderMode*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_renderMode" data-uid="Game.Scripts.ParticleSystem.renderMode">renderMode</h4>
+  <div class="markdown level1 summary"><p>랜더 모드를 결정한다
+Billboard = 0, 항상 카메라를 향함
+Stretch = 1, 항상 카메라를 향하지만 다양한 크기가 적용
+HorizontalBillboard = 2, 파티클 평면과 XZ &quot;바닥&quot; 평면이 평행해집니다.
+VerticalBillboard = 3, 파티클이 월드 Y축에 똑바로 서 있지만 카메라를 향합니다.
+Mesh = 4, 텍스쳐대신 메시에서 그려집니다
+None = 5 트레일 만 그려줍니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int renderMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_renderrEnable_" data-uid="Game.Scripts.ParticleSystem.renderrEnable*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_renderrEnable" data-uid="Game.Scripts.ParticleSystem.renderrEnable">renderrEnable</h4>
+  <div class="markdown level1 summary"><p>파티클 랜더 활성화</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool renderrEnable { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_scale_" data-uid="Game.Scripts.ParticleSystem.scale*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_scale" data-uid="Game.Scripts.ParticleSystem.scale">scale</h4>
+  <div class="markdown level1 summary"><p>파티클 기본크기</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object scale { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">재정의</h5>
+  <div><a class="xref" href="Game.Scripts.UI.BaseControl.html#Game_Scripts_UI_BaseControl_scale">BaseControl.scale</a></div>
+
+
+  <a id="Game_Scripts_ParticleSystem_shape_" data-uid="Game.Scripts.ParticleSystem.shape*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shape" data-uid="Game.Scripts.ParticleSystem.shape">shape</h4>
+  <div class="markdown level1 summary"><p>파티클 방출될 모양
+Sphere = 0,
+Hemisphere = 2,
+Cone = 4,
+Box = 5,
+Mesh = 6,
+ConeVolume = 8,
+Circle = 10,
+SingleSidedEdge = 12,
+BoxShell = 15,
+BoxEdge = 16,
+Donut = 17,
+Rectangle = 18,
+Sprite = 19,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int shape { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_shapeEnable_" data-uid="Game.Scripts.ParticleSystem.shapeEnable*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shapeEnable" data-uid="Game.Scripts.ParticleSystem.shapeEnable">shapeEnable</h4>
+  <div class="markdown level1 summary"><p>파티클 모양 설정 활성화 비활성화</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool shapeEnable { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_shapePosX_" data-uid="Game.Scripts.ParticleSystem.shapePosX*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shapePosX" data-uid="Game.Scripts.ParticleSystem.shapePosX">shapePosX</h4>
+  <div class="markdown level1 summary"><p>모양의 위치x</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shapePosX { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_shapePosY_" data-uid="Game.Scripts.ParticleSystem.shapePosY*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shapePosY" data-uid="Game.Scripts.ParticleSystem.shapePosY">shapePosY</h4>
+  <div class="markdown level1 summary"><p>모양의 위치y</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shapePosY { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_shapeRotX_" data-uid="Game.Scripts.ParticleSystem.shapeRotX*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shapeRotX" data-uid="Game.Scripts.ParticleSystem.shapeRotX">shapeRotX</h4>
+  <div class="markdown level1 summary"><p>모양의 회전X</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shapeRotX { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_shapeRotY_" data-uid="Game.Scripts.ParticleSystem.shapeRotY*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shapeRotY" data-uid="Game.Scripts.ParticleSystem.shapeRotY">shapeRotY</h4>
+  <div class="markdown level1 summary"><p>모양의 회전Y</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shapeRotY { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_shapeRotZ_" data-uid="Game.Scripts.ParticleSystem.shapeRotZ*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shapeRotZ" data-uid="Game.Scripts.ParticleSystem.shapeRotZ">shapeRotZ</h4>
+  <div class="markdown level1 summary"><p>모양의 회전Z</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shapeRotZ { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_shapeScaleX_" data-uid="Game.Scripts.ParticleSystem.shapeScaleX*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shapeScaleX" data-uid="Game.Scripts.ParticleSystem.shapeScaleX">shapeScaleX</h4>
+  <div class="markdown level1 summary"><p>모양의 크기X</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shapeScaleX { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_shapeScaleY_" data-uid="Game.Scripts.ParticleSystem.shapeScaleY*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shapeScaleY" data-uid="Game.Scripts.ParticleSystem.shapeScaleY">shapeScaleY</h4>
+  <div class="markdown level1 summary"><p>모양의 크기Y</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shapeScaleY { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_shapeScaleZ_" data-uid="Game.Scripts.ParticleSystem.shapeScaleZ*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_shapeScaleZ" data-uid="Game.Scripts.ParticleSystem.shapeScaleZ">shapeScaleZ</h4>
+  <div class="markdown level1 summary"><p>모양의 크기Z</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float shapeScaleZ { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_simulationSpace_" data-uid="Game.Scripts.ParticleSystem.simulationSpace*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_simulationSpace" data-uid="Game.Scripts.ParticleSystem.simulationSpace">simulationSpace</h4>
+  <div class="markdown level1 summary"><p>local : 캐릭터의 경우 따라다님 World : 안따라다님
+Local = 0,
+World = 1,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int simulationSpace { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_simulationSpeed_" data-uid="Game.Scripts.ParticleSystem.simulationSpeed*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_simulationSpeed" data-uid="Game.Scripts.ParticleSystem.simulationSpeed">simulationSpeed</h4>
+  <div class="markdown level1 summary"><p>파티클의 업데이트 속도 조절</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float simulationSpeed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_sizeOverLifeTime_" data-uid="Game.Scripts.ParticleSystem.sizeOverLifeTime*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_sizeOverLifeTime" data-uid="Game.Scripts.ParticleSystem.sizeOverLifeTime">sizeOverLifeTime</h4>
+  <div class="markdown level1 summary"><p>파티클 크기 수명 활성화</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool sizeOverLifeTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_sizeoVerLifeTimePrefab_" data-uid="Game.Scripts.ParticleSystem.sizeoVerLifeTimePrefab*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_sizeoVerLifeTimePrefab" data-uid="Game.Scripts.ParticleSystem.sizeoVerLifeTimePrefab">sizeoVerLifeTimePrefab</h4>
+  <div class="markdown level1 summary"><p>수명 사이즈 변화
+0 : constant
+1 : increasing
+2 : decreasing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int sizeoVerLifeTimePrefab { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_soringFudge_" data-uid="Game.Scripts.ParticleSystem.soringFudge*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_soringFudge" data-uid="Game.Scripts.ParticleSystem.soringFudge">soringFudge</h4>
+  <div class="markdown level1 summary"><p>파티클 시스템 정렬 순서의 바이어스입니다.
+값이 낮으면 파티클이 다른 파티클을 포함한 다른 투명한 게임 오브젝트에 그려지는 상대적인 기회가 늘어납니다.
+이 설정은 전체 시스템이 씬에 나타나는 위치에만 영향을 미치며 개별 파티클에 대한 정렬을 수행하지 않습니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float soringFudge { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_sortMode_" data-uid="Game.Scripts.ParticleSystem.sortMode*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_sortMode" data-uid="Game.Scripts.ParticleSystem.sortMode">sortMode</h4>
+  <div class="markdown level1 summary"><p>이순서에 따라 파티클이 정렬됩니다. 단 UI 파티클 제외
+None = 0,
+Distance = 1, 거리순
+OldestInFront = 2, 오래된순
+YoungestInFront = 3 새로생성된순</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int sortMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_sortOrder_" data-uid="Game.Scripts.ParticleSystem.sortOrder*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_sortOrder" data-uid="Game.Scripts.ParticleSystem.sortOrder">sortOrder</h4>
+  <div class="markdown level1 summary"><p>출력 순서 지정 값이 높아지면 먼저 출력</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int sortOrder { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_spherizeDirection_" data-uid="Game.Scripts.ParticleSystem.spherizeDirection*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_spherizeDirection" data-uid="Game.Scripts.ParticleSystem.spherizeDirection">spherizeDirection</h4>
+  <div class="markdown level1 summary"><p>0.0 ~ 1.0 파티클 방향이 구체 방향이 되도록 합니다. 0은 영향없음 1은 파티클 방향이 중앙을 기준으로 방사형이 됩니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float spherizeDirection { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_startDelay_" data-uid="Game.Scripts.ParticleSystem.startDelay*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_startDelay" data-uid="Game.Scripts.ParticleSystem.startDelay">startDelay</h4>
+  <div class="markdown level1 summary"><p>활성화후 작동을 시작하기 까지 지연시간</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float startDelay { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_startLifetime_" data-uid="Game.Scripts.ParticleSystem.startLifetime*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_startLifetime" data-uid="Game.Scripts.ParticleSystem.startLifetime">startLifetime</h4>
+  <div class="markdown level1 summary"><p>파티클의 초기 수명</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float startLifetime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_startRotation_" data-uid="Game.Scripts.ParticleSystem.startRotation*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_startRotation" data-uid="Game.Scripts.ParticleSystem.startRotation">startRotation</h4>
+  <div class="markdown level1 summary"><p>파티클의 초기 회전각도</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float startRotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_startSize_" data-uid="Game.Scripts.ParticleSystem.startSize*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_startSize" data-uid="Game.Scripts.ParticleSystem.startSize">startSize</h4>
+  <div class="markdown level1 summary"><p>파티클읠 초기 크기</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float startSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_startSpeed_" data-uid="Game.Scripts.ParticleSystem.startSpeed*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_startSpeed" data-uid="Game.Scripts.ParticleSystem.startSpeed">startSpeed</h4>
+  <div class="markdown level1 summary"><p>해당 방향으로 작용하는 파티클 초기 속도</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float startSpeed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_time_" data-uid="Game.Scripts.ParticleSystem.time*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_time" data-uid="Game.Scripts.ParticleSystem.time">time</h4>
+  <div class="markdown level1 summary"><p>파티클 시간 설정</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float time { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailDieWithParticles_" data-uid="Game.Scripts.ParticleSystem.trailDieWithParticles*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailDieWithParticles" data-uid="Game.Scripts.ParticleSystem.trailDieWithParticles">trailDieWithParticles</h4>
+  <div class="markdown level1 summary"><p>파티클이 소멸되는 즉시 잔상이 사라집니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool trailDieWithParticles { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailInheritParticleColor_" data-uid="Game.Scripts.ParticleSystem.trailInheritParticleColor*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailInheritParticleColor" data-uid="Game.Scripts.ParticleSystem.trailInheritParticleColor">trailInheritParticleColor</h4>
+  <div class="markdown level1 summary"><p>활성화하면 잔상 색상이 파티클 색상으로 조절됩니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool trailInheritParticleColor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailLifeTime_" data-uid="Game.Scripts.ParticleSystem.trailLifeTime*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailLifeTime" data-uid="Game.Scripts.ParticleSystem.trailLifeTime">trailLifeTime</h4>
+  <div class="markdown level1 summary"><p>잔상이 속한 파티클의 수명에 곱하는 수 이 값으로 나타나는 각 버텍스의 수명을 설정합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float trailLifeTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailMaterial_" data-uid="Game.Scripts.ParticleSystem.trailMaterial*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailMaterial" data-uid="Game.Scripts.ParticleSystem.trailMaterial">trailMaterial</h4>
+  <div class="markdown level1 summary"><p>파티클 꼬리 재질설정 사용하려면 trailsEable = true 필요
+0 : Default_Particle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int trailMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailMinimumVertexDistance_" data-uid="Game.Scripts.ParticleSystem.trailMinimumVertexDistance*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailMinimumVertexDistance" data-uid="Game.Scripts.ParticleSystem.trailMinimumVertexDistance">trailMinimumVertexDistance</h4>
+  <div class="markdown level1 summary"><p>전장에 새로운 버텍스가 추가되기까지 파티클이 이동해야 하는 거리를 정의합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float trailMinimumVertexDistance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailMode_" data-uid="Game.Scripts.ParticleSystem.trailMode*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailMode" data-uid="Game.Scripts.ParticleSystem.trailMode">trailMode</h4>
+  <div class="markdown level1 summary"><p>꼬리 모드 설정
+PerParticle = 0 각 파티클이 움직이지 않는 잔상을 경로에 남깁니다.
+Ribbon = 1 각 파티클을 나이에 따라 연결하는 잔상 리본이 생성됩니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int trailMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailRatio_" data-uid="Game.Scripts.ParticleSystem.trailRatio*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailRatio" data-uid="Game.Scripts.ParticleSystem.trailRatio">trailRatio</h4>
+  <div class="markdown level1 summary"><p>0.0 ~ 1.0 잔상을 남길 파티클의 비율</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float trailRatio { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailRibbonCount_" data-uid="Game.Scripts.ParticleSystem.trailRibbonCount*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailRibbonCount" data-uid="Game.Scripts.ParticleSystem.trailRibbonCount">trailRibbonCount</h4>
+  <div class="markdown level1 summary"><p>렌더링할 연결할 리본수를 선택합니다.
+1 이면 파티클을연결하는 리본1개 생성
+1이상 N개라면 1 부터 N 각 수의 배수에 해당하는 파티클을 연결하는 N개의 리본생성</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int trailRibbonCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailsEnable_" data-uid="Game.Scripts.ParticleSystem.trailsEnable*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailsEnable" data-uid="Game.Scripts.ParticleSystem.trailsEnable">trailsEnable</h4>
+  <div class="markdown level1 summary"><p>파티클 꼬리 활성화</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool trailsEnable { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailSizeAffectsLifeTime_" data-uid="Game.Scripts.ParticleSystem.trailSizeAffectsLifeTime*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailSizeAffectsLifeTime" data-uid="Game.Scripts.ParticleSystem.trailSizeAffectsLifeTime">trailSizeAffectsLifeTime</h4>
+  <div class="markdown level1 summary"><p>활성화 하면 잔상 수명에 파티클 크기를 곱합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool trailSizeAffectsLifeTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailSizeAffectsWidth_" data-uid="Game.Scripts.ParticleSystem.trailSizeAffectsWidth*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailSizeAffectsWidth" data-uid="Game.Scripts.ParticleSystem.trailSizeAffectsWidth">trailSizeAffectsWidth</h4>
+  <div class="markdown level1 summary"><p>활성화 하면 잔상 수명에 파티클 크기를 곱합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool trailSizeAffectsWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailTextureMode_" data-uid="Game.Scripts.ParticleSystem.trailTextureMode*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailTextureMode" data-uid="Game.Scripts.ParticleSystem.trailTextureMode">trailTextureMode</h4>
+  <div class="markdown level1 summary"><p>텍스처가 전체길이에 맞춰 늘어나는지 아니면 N단위의 거리마다 텍스처가 반복되는지 선택합니다.
+Stretch = 0,
+Tile = 1,
+DistributePerSegment = 2,
+RepeatPerSegment = 3</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int trailTextureMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailWidthOverTrail_" data-uid="Game.Scripts.ParticleSystem.trailWidthOverTrail*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailWidthOverTrail" data-uid="Game.Scripts.ParticleSystem.trailWidthOverTrail">trailWidthOverTrail</h4>
+  <div class="markdown level1 summary"><p>잔상의 너비를 길이에 따라 제어한다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float trailWidthOverTrail { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_trailWorldSpace_" data-uid="Game.Scripts.ParticleSystem.trailWorldSpace*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_trailWorldSpace" data-uid="Game.Scripts.ParticleSystem.trailWorldSpace">trailWorldSpace</h4>
+  <div class="markdown level1 summary"><p>활성화하면 게임 오브젝트를 상대적으로 이동하지않습니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool trailWorldSpace { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_uvChannel_" data-uid="Game.Scripts.ParticleSystem.uvChannel*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_uvChannel" data-uid="Game.Scripts.ParticleSystem.uvChannel">uvChannel</h4>
+  <div class="markdown level1 summary"><p>텍스쳐 샘플링에 사용할 소스 메시의 UV채널을 선택합니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int uvChannel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">프로퍼티 값</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">함수
+</h3>
+
+
+  <a id="Game_Scripts_ParticleSystem_AddBurst_" data-uid="Game.Scripts.ParticleSystem.AddBurst*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_AddBurst_System_Single_System_Int32_System_Int32_System_Single_" data-uid="Game.Scripts.ParticleSystem.AddBurst(System.Single,System.Int32,System.Int32,System.Single)">AddBurst(float, int, int, float)</h4>
+  <div class="markdown level1 summary"><p>파티클 생성 이벤트, 지정된 시점에 파티클 방출 가능</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBurst(float time, int count, int cycles, float interval)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">time</span></td>
+        <td><p>파티클 작동이후 버스트를 방출할 시점 초단위</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>방출되는 파티클 수</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">cycles</span></td>
+        <td><p>버스트를 반복할 횟수</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>버스트가 반복되는 시간 사이의 간격(초)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_AddColorOverLifeTimeAlpha_" data-uid="Game.Scripts.ParticleSystem.AddColorOverLifeTimeAlpha*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_AddColorOverLifeTimeAlpha_System_Single_System_Int32_" data-uid="Game.Scripts.ParticleSystem.AddColorOverLifeTimeAlpha(System.Single,System.Int32)">AddColorOverLifeTimeAlpha(float, int)</h4>
+  <div class="markdown level1 summary"><p>알파키 추가</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddColorOverLifeTimeAlpha(float location, int alpha = 255)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>키의 위치 0.0 ~ 1.0</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td><p>알파값</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_AddColorOverLifeTimeColor_" data-uid="Game.Scripts.ParticleSystem.AddColorOverLifeTimeColor*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_AddColorOverLifeTimeColor_Game_Scripts_Graphics_Color_System_Single_" data-uid="Game.Scripts.ParticleSystem.AddColorOverLifeTimeColor(Game.Scripts.Graphics.Color,System.Single)">AddColorOverLifeTimeColor(Color, float)</h4>
+  <div class="markdown level1 summary"><p>컬러키 추가</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddColorOverLifeTimeColor(Color color, float location)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.Graphics.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>컬러키 색깔</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>키의 위치</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_AttachToUI_" data-uid="Game.Scripts.ParticleSystem.AttachToUI*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_AttachToUI_Game_Scripts_Graphics_Point_" data-uid="Game.Scripts.ParticleSystem.AttachToUI(Game.Scripts.Graphics.Point)">AttachToUI(Point)</h4>
+  <div class="markdown level1 summary"><p>UI에 파티클 추가하기</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AttachToUI(Point position)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.Graphics.Point.html">Point</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>생성될 위치</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_AttachToUnit_" data-uid="Game.Scripts.ParticleSystem.AttachToUnit*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_AttachToUnit_Game_Scripts_Graphics_Point_Game_Scripts_Unit_" data-uid="Game.Scripts.ParticleSystem.AttachToUnit(Game.Scripts.Graphics.Point,Game.Scripts.Unit)">AttachToUnit(Point, Unit)</h4>
+  <div class="markdown level1 summary"><p>유닛에 파티클 추가하기</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AttachToUnit(Point position, Unit unit)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.Graphics.Point.html">Point</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>생성될 위치</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.Unit.html">Unit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td><p>유닛</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">재정의</h5>
+  <div><a class="xref" href="Game.Scripts.UI.Control.html#Game_Scripts_UI_Control_AttachToUnit_Game_Scripts_Graphics_Point_Game_Scripts_Unit_">Control.AttachToUnit(Point, Unit)</a></div>
+
+
+  <a id="Game_Scripts_ParticleSystem_AttachToUnitID_" data-uid="Game.Scripts.ParticleSystem.AttachToUnitID*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_AttachToUnitID_Game_Scripts_Graphics_Point_System_Int64_" data-uid="Game.Scripts.ParticleSystem.AttachToUnitID(Game.Scripts.Graphics.Point,System.Int64)">AttachToUnitID(Point, long)</h4>
+  <div class="markdown level1 summary"><p>유닛에 파티클 추가하기</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AttachToUnitID(Point position, long id)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.Graphics.Point.html">Point</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>생성될 위치</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">long</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>유닛ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">재정의</h5>
+  <div><a class="xref" href="Game.Scripts.UI.Control.html#Game_Scripts_UI_Control_AttachToUnitID_Game_Scripts_Graphics_Point_System_Int64_">Control.AttachToUnitID(Point, long)</a></div>
+
+
+  <a id="Game_Scripts_ParticleSystem_New_" data-uid="Game.Scripts.ParticleSystem.New*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_New" data-uid="Game.Scripts.ParticleSystem.New">New()</h4>
+  <div class="markdown level1 summary"><p>ParticleSystem 생성하기</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ParticleSystem New()</code></pre>
+  </div>
+  <h5 class="returns">반환</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.ParticleSystem.html">ParticleSystem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_Pause_" data-uid="Game.Scripts.ParticleSystem.Pause*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_Pause" data-uid="Game.Scripts.ParticleSystem.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>파티클 일시정지</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+  </div>
+
+
+  <a id="Game_Scripts_ParticleSystem_Play_" data-uid="Game.Scripts.ParticleSystem.Play*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_Play" data-uid="Game.Scripts.ParticleSystem.Play">Play()</h4>
+  <div class="markdown level1 summary"><p>파티클 재생</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play()</code></pre>
+  </div>
+
+
+  <a id="Game_Scripts_ParticleSystem_RemoveColorOverLifeTimeAlpha_" data-uid="Game.Scripts.ParticleSystem.RemoveColorOverLifeTimeAlpha*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_RemoveColorOverLifeTimeAlpha_System_Int32_" data-uid="Game.Scripts.ParticleSystem.RemoveColorOverLifeTimeAlpha(System.Int32)">RemoveColorOverLifeTimeAlpha(int)</h4>
+  <div class="markdown level1 summary"><p>수명 알파 삭제
+기본 맨앞 0, 맨뒤 1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveColorOverLifeTimeAlpha(int index)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>찾을 키</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_RemoveColorOverLifeTimeColor_" data-uid="Game.Scripts.ParticleSystem.RemoveColorOverLifeTimeColor*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_RemoveColorOverLifeTimeColor_System_Int32_" data-uid="Game.Scripts.ParticleSystem.RemoveColorOverLifeTimeColor(System.Int32)">RemoveColorOverLifeTimeColor(int)</h4>
+  <div class="markdown level1 summary"><p>수명 컬러 삭제
+기본 맨앞 0, 맨뒤 1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveColorOverLifeTimeColor(int index)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>찾을 키</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_SetColorOverLifeTimeColor_" data-uid="Game.Scripts.ParticleSystem.SetColorOverLifeTimeColor*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_SetColorOverLifeTimeColor_System_Int32_Game_Scripts_Graphics_Color_" data-uid="Game.Scripts.ParticleSystem.SetColorOverLifeTimeColor(System.Int32,Game.Scripts.Graphics.Color)">SetColorOverLifeTimeColor(int, Color)</h4>
+  <div class="markdown level1 summary"><p>수명 컬러 색 변경
+기본 맨앞 키0 , 맨뒤 키1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColorOverLifeTimeColor(int index, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>찾을 키</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.Graphics.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>지정할 색깔</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_SetColorOverLifeTimeColorAlpha_" data-uid="Game.Scripts.ParticleSystem.SetColorOverLifeTimeColorAlpha*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_SetColorOverLifeTimeColorAlpha_System_Int32_System_Int32_" data-uid="Game.Scripts.ParticleSystem.SetColorOverLifeTimeColorAlpha(System.Int32,System.Int32)">SetColorOverLifeTimeColorAlpha(int, int)</h4>
+  <div class="markdown level1 summary"><p>해당 키 수명 컬러 알파
+기본 맨앞 키0, 맨뒤 키1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColorOverLifeTimeColorAlpha(int index, int alpha = 255)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>찾을 키</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td><p>알파값</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_SetColorOverTrail_" data-uid="Game.Scripts.ParticleSystem.SetColorOverTrail*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_SetColorOverTrail_System_Single_System_Single_System_Single_System_Single_" data-uid="Game.Scripts.ParticleSystem.SetColorOverTrail(System.Single,System.Single,System.Single,System.Single)">SetColorOverTrail(float, float, float, float)</h4>
+  <div class="markdown level1 summary"><p>잔상의 컬러를 길이에 따라 제어한다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColorOverTrail(float r, float g, float b, float a)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>빨강</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">g</span></td>
+        <td><p>초록</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>파랑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>투명도</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_SetMaterialTexture_" data-uid="Game.Scripts.ParticleSystem.SetMaterialTexture*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_SetMaterialTexture_Game_Scripts_UI_Image_Game_Scripts_UI_Image_" data-uid="Game.Scripts.ParticleSystem.SetMaterialTexture(Game.Scripts.UI.Image,Game.Scripts.UI.Image)">SetMaterialTexture(Image, Image)</h4>
+  <div class="markdown level1 summary"><p>재질의 이미지 변경</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMaterialTexture(Image image = null, Image trailImage = null)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.UI.Image.html">Image</a></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>기본 파티클 재질</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.UI.Image.html">Image</a></td>
+        <td><span class="parametername">trailImage</span></td>
+        <td><p>잔상 파티클 재질</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_SetMaterialTexture_" data-uid="Game.Scripts.ParticleSystem.SetMaterialTexture*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_SetMaterialTexture_System_String_System_String_" data-uid="Game.Scripts.ParticleSystem.SetMaterialTexture(System.String,System.String)">SetMaterialTexture(string, string)</h4>
+  <div class="markdown level1 summary"><p>재질의 이미지 변경</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMaterialTexture(string imagePath = null, string trailImagePath = null)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">imagePath</span></td>
+        <td><p>이미지 경로</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">trailImagePath</span></td>
+        <td><p>꼬리에 사용할 이미지경로</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_SetStartColor_" data-uid="Game.Scripts.ParticleSystem.SetStartColor*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_SetStartColor_Game_Scripts_Graphics_Color_" data-uid="Game.Scripts.ParticleSystem.SetStartColor(Game.Scripts.Graphics.Color)">SetStartColor(Color)</h4>
+  <div class="markdown level1 summary"><p>메인 파티클 색깔 변경</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetStartColor(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.Graphics.Color.html">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>색깔</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_SetTrailMaterialUnitTexture_" data-uid="Game.Scripts.ParticleSystem.SetTrailMaterialUnitTexture*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_SetTrailMaterialUnitTexture" data-uid="Game.Scripts.ParticleSystem.SetTrailMaterialUnitTexture">SetTrailMaterialUnitTexture()</h4>
+  <div class="markdown level1 summary"><p>파티클 잔상(꼬리)재질의 이미지를 유닛의 이미지로 설정</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTrailMaterialUnitTexture()</code></pre>
+  </div>
+
+
+  <a id="Game_Scripts_ParticleSystem_ShapeSetSprite_" data-uid="Game.Scripts.ParticleSystem.ShapeSetSprite*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_ShapeSetSprite_Game_Scripts_UI_Image_" data-uid="Game.Scripts.ParticleSystem.ShapeSetSprite(Game.Scripts.UI.Image)">ShapeSetSprite(Image)</h4>
+  <div class="markdown level1 summary"><p>모양이 Sprite 일 경우 Sprite 설정</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShapeSetSprite(Image image)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.UI.Image.html">Image</a></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>이미지</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_ShapeSetTexture_" data-uid="Game.Scripts.ParticleSystem.ShapeSetTexture*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_ShapeSetTexture_Game_Scripts_UI_Image_" data-uid="Game.Scripts.ParticleSystem.ShapeSetTexture(Game.Scripts.UI.Image)">ShapeSetTexture(Image)</h4>
+  <div class="markdown level1 summary"><p>파티클의 틴트 및 폐기시 사용되는 텍스쳐</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShapeSetTexture(Image image)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Game.Scripts.UI.Image.html">Image</a></td>
+        <td><span class="parametername">image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Game_Scripts_ParticleSystem_Stop_" data-uid="Game.Scripts.ParticleSystem.Stop*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_Stop" data-uid="Game.Scripts.ParticleSystem.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>파티클 멈춤</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+
+
+  <a id="Game_Scripts_ParticleSystem_TrailSetColorOverLifeTime_" data-uid="Game.Scripts.ParticleSystem.TrailSetColorOverLifeTime*"></a>
+  <h4 id="Game_Scripts_ParticleSystem_TrailSetColorOverLifeTime_System_Single_System_Single_System_Single_System_Single_" data-uid="Game.Scripts.ParticleSystem.TrailSetColorOverLifeTime(System.Single,System.Single,System.Single,System.Single)">TrailSetColorOverLifeTime(float, float, float, float)</h4>
+  <div class="markdown level1 summary"><p>잔상이 추가된 파티클의 수명에 따라 전체 잔상의 색상을 제어한다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">선언</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TrailSetColorOverLifeTime(float r, float g, float b, float a)</code></pre>
+  </div>
+  <h5 class="parameters">매개 변수(인자)</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>타입</th>
+        <th>이름</th>
+        <th>설명</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>빨강</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">g</span></td>
+        <td><p>초록</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>파랑</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>투명도</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

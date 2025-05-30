@@ -1,0 +1,1878 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/neko/workspace/nekoland_creator_build_with_cdn_upload/DocFx/docfx_ko",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.BoxCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.BoxCollider.html",
+          "hash": "m9JikIBHTYCZA3nxtQroZFJU+ftdBtLn06fu2YHy3NI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Camera.html",
+          "hash": "BSybFPXKMs3OIevn+31wZVWEWHkFwpILCle/ozw05U8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ChangeSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ChangeSlot.html",
+          "hash": "Li4AdzSnNIuYFt3VHNHn3fUCY8jW+VcNuNhJA0CXqzg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Chat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Chat.html",
+          "hash": "rq+PIvMUxvtF2j3HGiKcBZ5JMu7j1xnBq7ZvzKafRO0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.CircleCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.CircleCollider.html",
+          "hash": "FpwGEjcTXwB7wUYXwLaDANdCXPX4urX+6QmEAJhGVsQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.CustomSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.CustomSkill.html",
+          "hash": "IItVIUjiAvHbhaC5Ly9TA6OMEzj0pdqGzb43Q1pp7i8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Diagnostics.FPSStat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Diagnostics.FPSStat.html",
+          "hash": "WiJ+nmdHzdedYj9l0Dwhl/vziIwp8MEKFEydZsFDx70="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Diagnostics.GraphStat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Diagnostics.GraphStat.html",
+          "hash": "vKZLWQj67bQJGF9I4JvR8akJZrsWKEK5i9AqfKGKNbI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Diagnostics.RamStat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Diagnostics.RamStat.html",
+          "hash": "1O+cVNT2sG/M1P4GqedNgVoMNvdjN6u8NxrpEKA9cMQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Diagnostics.StatMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Diagnostics.StatMonitor.html",
+          "hash": "z8C5hO9zoBErZBq9w7Eg/q7EwBDfDr+8UlgLV3tSsXI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Diagnostics.html",
+          "hash": "9SIBu9BKftrwc8OH9MObQUshutypKwnXIwwy6+Pui1g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.DropItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.DropItem.html",
+          "hash": "t4/uli10oPlVGM0JVwRRWmT2FqIZ3daexebeMGGC+g0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.EventSystems.IPointerHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.EventSystems.IPointerHandler.html",
+          "hash": "jtoMcpI2OWChJKBzGCViQN7S6kKTzVescOsIldesUJ4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.EventSystems.PointerEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.EventSystems.PointerEventData.html",
+          "hash": "mS8M4bQVptoOGZsY2OzhNILmYEcSOK1DHxmJfrEcqKo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.EventSystems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.EventSystems.html",
+          "hash": "a+/f+DcvwTRaLqq3p0WM9ypO3px4SxSVLju+DpD7FPc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Field.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Field.html",
+          "hash": "q0suy0pVhhdl2DTLoY1bwHqAGCzXly0knlD8Zlaw/G0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.Color.html",
+          "hash": "SdCMYR4OiRsQtVishtHSGV4J8ho4y9/NOslb56OUsAA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.ColorBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.ColorBlock.html",
+          "hash": "INVOP+ZflSefy+9qCvoAXhajr2C9Jjle3ge5nJBqqiE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.Font.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.Font.html",
+          "hash": "7wEbS7qajYH6t4Jx9PTEqx5/i2m8yuW3k/VFZow9HDo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.Point.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.Point.html",
+          "hash": "+ItFMpKwJHz2BJi8MQ02IZbPYUZZESlnHNhpAERfawA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.Rect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.Rect.html",
+          "hash": "A1Zw8NaPWg6YtAxO3wFGHFFi7Is5mT8bud68VrSlFnw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.RectOff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.RectOff.html",
+          "hash": "Lxg1qA6EU0nLIqovMJWIs+fPESgNtKfXYl4TZhwz4OI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.Sprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.Sprite.html",
+          "hash": "EM/XJF1o8XW43kl4SnIazWUAQh0AQ2r8HJ7SFYqYwlw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.SpriteAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.SpriteAction.html",
+          "hash": "xgeJNw3mvuG3PcSJZN3r4MsXVP40ITwopOsa66DQN1I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.URLSprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.URLSprite.html",
+          "hash": "iiHRlwD5XW+ZArvdPGUSjNyP0Sf47MmwZ7PVCbFn0g0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Graphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Graphics.html",
+          "hash": "c304PkKppnp8yEfd5HnwdAiygmmXoYsh3sWccgMYxMk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Input.KeyCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Input.KeyCode.html",
+          "hash": "LC/fwwi8UYqCE1eiid9t7+kNi6pT9/VbXCruPr/2KMQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Input.html",
+          "hash": "wlQ/aG4uagq4Z2dMqSBC/HAu6lm2fqqAAKxg9o7ki1Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Lua.Dynamic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Lua.Dynamic.html",
+          "hash": "GajBAHvFDtxOOenn8yZ0MBvAOP88W0dZt+LjbG1dYVo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Lua.Globals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Lua.Globals.html",
+          "hash": "3EL92ru+UbL17S70fCizk84Sy4R8H2IZqfMViCE9gSk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Lua.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Lua.Json.html",
+          "hash": "dEQLUxjHi7diiIKTjIKTmziz+GgZ3L4gB47C6o7sMiw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Lua.Rand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Lua.Rand.html",
+          "hash": "FkurxWsvEARK598N2Kqm98LRxiw6oiE+d/WrkUULOMw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Lua.String.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Lua.String.html",
+          "hash": "uPa+ADMPyP4RO/ojYm3iHwvZO8XvlR/67cEWAU8XTqs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Lua.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Lua.html",
+          "hash": "1HVHZdubGitkxl4jlhKG4q0dOdqXvWXGITBLFMNDVhc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.MapTile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.MapTile.html",
+          "hash": "48W+KvBTAxhpNOHogODQedwSohWN83761uCohM9BfSo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.MyPlayerUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.MyPlayerUnit.html",
+          "hash": "2q+iy+oyMsofsNOwQW43EUi//kkUAlnjY+xaZUjwxM4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Panorama.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Panorama.html",
+          "hash": "FAEN1RLShXSdIfeUwai7H4Z6Dh/PLzZP3p0cuJAeMto="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ParticleSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ParticleSystem.html",
+          "hash": "m2yWX2zerEclI1P8HArg4Gf4qcAvvateRffQEbcmP2E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Proxy.TBuff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Proxy.TBuff.html",
+          "hash": "VCfqcW27B0QAXJ4EeVXHKd2NTFFJRJqyuzE3gg/0hkM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Proxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Proxy.html",
+          "hash": "rI6yRtS90gp3/K74swu3yyuWi72rIZEUywcKMqh2PX4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Rigidbody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Rigidbody.html",
+          "hash": "LplBpv768k+RWW1cUkjvE89j6JF2LI+WO1de30Ojz4M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ScriptClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ScriptClient.html",
+          "hash": "ipfRzCDYRA5kXDCXL4qQI207Yvm+I+YQlv+H7aa3I80="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ScriptObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ScriptObject.html",
+          "hash": "4w4SrjLM48gS1dqpxvz9R/mCU16xGPSiQIDhceilH4E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ScriptPlayerPrefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ScriptPlayerPrefs.html",
+          "hash": "MQd4Hxb9XsqjUNOvdAbWzr7tCHe0kyKJ2Tc1RGINUkQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ScriptTween.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ScriptTween.html",
+          "hash": "SKT3rR6cn4LnhViHvSnj9iOq4L11vFKzzZzlLoBSZ4s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ScriptTweenParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ScriptTweenParams.html",
+          "hash": "UAfuBsARfuBlSuIY8DVgF8OL7vr74wktFP0pkBYdjkE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ScriptTweenSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ScriptTweenSequence.html",
+          "hash": "St32iFUDGVeHV6MrN1LgUnzO458DD10UDDiA3US2PSk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ScriptTweener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ScriptTweener.html",
+          "hash": "SpTopJj7hl58WklzK8pKdsVPMUQzRlmWYyFXcVcr9xk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.ScriptTweening.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.ScriptTweening.html",
+          "hash": "k0kwzNbJsgM1xP7cs94MticEvq8RcS3NaIm7TnVTfqI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.System.EventPublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.System.EventPublisher.html",
+          "hash": "gavUsysjqrAwupypNvyJzCRSis1dSh+7sD4Egrm/TSE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.System.Time.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.System.Time.html",
+          "hash": "vVwd1z5KQK+xKi6ErkJAbeK6XyG2rn7zV5e2nI6a2rg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.System.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.System.html",
+          "hash": "BZeaXk71JNQ02EWxoKM0jFn+4JzM/dF6vM5Os7ga0Ec="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.BaseControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.BaseControl.html",
+          "hash": "E+QQEYmImx1rn2orkGU7wPhXALhl1GK4D0I/YkYRO9c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Border.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Border.html",
+          "hash": "wMRMl1Bzl8igPPnxvjWZFki81x5dveZLiEqWa5RlceM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.BuffPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.BuffPanel.html",
+          "hash": "3084sdhGoOKFY/0si2ei6CIxO0Hpjt3hBExGEcAdd7Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Button.html",
+          "hash": "0dP5fjvVL2GePK5s4z+KiIqH0JZxIO8HeE3rxVDMYek="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.ChatBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.ChatBox.html",
+          "hash": "4CHJB/C5EMZZNb1N50x6zr4FKDl20Ci4fzaLy3fP6q4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.ChatInputUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.ChatInputUI.html",
+          "hash": "o+IidWrBt3eEaBHvQy50aiRsSgjRtb6YBRcrHa5K2mw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.ChatPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.ChatPanel.html",
+          "hash": "CCGUYlJQPDB0NOI86yLmPwkXeO8a5Kgkb4XaH08dD50="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.ChatUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.ChatUI.html",
+          "hash": "soCvIhSPjckXEnR6nwFsDYai5cwwdDLlW2cqzrryWdk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Control.html",
+          "hash": "G9ezJzIWd3znb3ONMvUIpFxkebyHkuBD3obllAAtk5o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Controller.html",
+          "hash": "6D4n8QYWjP7s1Mr7wDceg9E277JdlFN8uSOKd242r/k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.DpadController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.DpadController.html",
+          "hash": "cdvl8wBDUrT3FAy6ZiCdtabJ8nveMTsa7KIDZWrLZBY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.EmoticonUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.EmoticonUI.html",
+          "hash": "YK7sfo9h/eoK8GfnAeUJtoBdtZ/6UQPfW6aQnsIzJ0Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.GoldPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.GoldPanel.html",
+          "hash": "hFjB+u8nmcTaXJfIaJ8S1kvGvh/fmuTTkDddAxVgBkM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.GridPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.GridPanel.html",
+          "hash": "F7u+2OiROJ2h5HQBHrakMXBdMYLHYH+PWUnor+kblwU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.HorizontalPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.HorizontalPanel.html",
+          "hash": "ijFFb5NXoWhYhzsiTDp10QMp1cyoUayPd1QqBYOmOQc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Image.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Image.html",
+          "hash": "qq4g9GQzw+PCx4YZdUQeHZ+GU/p/mcEK6IhUiwAqvx8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.InputField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.InputField.html",
+          "hash": "LQ75BWLOKWae99HD2Hl8UkPopBvo432ej2lxKxjN3Rc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Minimap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Minimap.html",
+          "hash": "vp8D989GSia9afGmurdj09MkK1/Ic6ydp3klHPGXB1g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Outline-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Outline-1.html",
+          "hash": "xGfB2E/vH1aWKOmTfLa7LK5l8WXyJCzBpERbHbZr7WM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Page.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Page.html",
+          "hash": "NSunbExvEXTv/VoQ43vrKnl6hVIJPj/o15zUfkSvUVk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Panel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Panel.html",
+          "hash": "/W2iSz8HAZmdGp4FnFh1a6NGvfLdHLOhMuMqzGo8UDU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.PartyPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.PartyPanel.html",
+          "hash": "rGoqTcDty4JGBVp03/VW7U0BUmjJXHlWaSLKz9wdwqk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.PopupPlayerlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.PopupPlayerlist.html",
+          "hash": "esfVyaG9IKieaB7YWlvCpvIGPhdXoOlmtgpCh05tRbE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.QuickSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.QuickSlot.html",
+          "hash": "3R12G1XoIp+fhdDrZSmj82kWQEtSf/2NXev2mywSVVM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.ScriptScreenUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.ScriptScreenUI.html",
+          "hash": "PlAPT511Kwgq0L0mWAygU7cC6bTK2Hij2rNaDhgDsbE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.ScrollPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.ScrollPanel.html",
+          "hash": "IIiw8CsC5k2J5bDSo5yozikG99vbdNBFLN/NZtKmh/0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Scrollbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Scrollbar.html",
+          "hash": "Gwmz76IP4jeEWSqqdAIdz5vAh/EFDOLtgXrmed/q7jM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Shadow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Shadow.html",
+          "hash": "ZnmeInYvNtlrcfEd/B5ApIh+gvs7SdXAe8JEQhVBpvg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Slider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Slider.html",
+          "hash": "HI1PO6qjznWt/q9TgiFxEw6hAzkS0OV9mMVSrZmuVlc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.StartChat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.StartChat.html",
+          "hash": "wp1B70+oDrK0ucVyEqiRGXA8YJmqmYju7P8y7VutkTw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.Text.html",
+          "hash": "Qh2p37xjVHq80xL+Ofk/mnqPmGZ9rbI2+AdJAWA64fY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.TopUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.TopUI.html",
+          "hash": "HySD8a8hinRC9FAqXEYXrOAb2xqOxwmyccfZZASA25c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.URLImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.URLImage.html",
+          "hash": "0cG8TbOcuotEqAWz114bPRdMMHf0Gsn3Wp8BrSYxrGk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.VerticalLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.VerticalLayoutGroup.html",
+          "hash": "HTnsxuJBcJSDamVZ6OFmCcEwBa8g6LtQEKkPt4+NgSg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.VerticalPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.VerticalPanel.html",
+          "hash": "Dm99pbVjZeM6+uxaShGoYMenPMptBg5coLPNuFR7ipE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.UI.html",
+          "hash": "UZyJIIqwjqDehSHVt5RcVEKdaSnm/bvX75vCGZQHtGg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Unit.html",
+          "hash": "Kalx5koFSPxcL/z7HohI99tinykTVQu3CrhxmofxWPw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.Utility.html",
+          "hash": "g4XLnFPgKDl7AIWa8hfmwxCasrL0IvtR5rAQUlAhqCU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_client/Game.Scripts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/Game.Scripts.html",
+          "hash": "WgCLi0/YC2unmfTzUFvNyI37eIJ7RfAqG7fKfB6n2s8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api_client/main.md",
+      "output": {
+        ".html": {
+          "relative_path": "api_client/main.html",
+          "hash": "L9VoVdO6sOWVz7OXakUyWjP4quENVDoLHolVATkgx+0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.NekoEquipSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.NekoEquipSlot.html",
+          "hash": "Lg98VR7dRySm5BPt57H+fPdGNF7b9xZg2rGGZO0oKCk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.NekoItemOptionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.NekoItemOptionType.html",
+          "hash": "oX9eSdDlTANHlkzC1/YhikPVQ4UE6pObNtMnREJihKw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.NekoItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.NekoItemType.html",
+          "hash": "+ZbOxy10+B+JUZfLz8tdc3s9XeJMP5i05zHVzDUrqVg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.NekoSkillType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.NekoSkillType.html",
+          "hash": "/45oH4tj8ruajYhYHsaV/0XqTJhDkE6DuYmm6Js+oRU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.NekoStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.NekoStats.html",
+          "hash": "NIAKwae7z9fnNx11nooLxFUwXuGbvnZJ771rgkjqO6Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.Graphics.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.Graphics.Color.html",
+          "hash": "sVdIq5i08lXc7YKLVT0G6nwKcKgCmoutsbtWfB8WL1Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.Graphics.Point.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.Graphics.Point.html",
+          "hash": "OBRwZrUfrqq5ig/sqfzCV+sBTvdy/AumpSveYWwGQpw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.Graphics.Rect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.Graphics.Rect.html",
+          "hash": "NTxMo9qc+FtwLvMO/d+B7pvLroC8N8OKdNFokUOkddM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.Graphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.Graphics.html",
+          "hash": "NWSIk843Vthvn4g4/6PcccAGRLf2f6ueAIxRrM4BtdQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.Lua.Globals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.Lua.Globals.html",
+          "hash": "1JD/L7rgMzkZcWWFXXw2yziyqLPPSPQqa6reRsiVyd4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.Lua.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.Lua.html",
+          "hash": "0/RHYgR5upxxTP2dyf/9ovqfaOyhBIgS3tTMPlSW0IQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.Proxy.TItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.Proxy.TItem.html",
+          "hash": "3hMzVIstwCHDFoNGLiTPPHHH8CQTFeVPTtBkHz2hfHA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.Proxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.Proxy.html",
+          "hash": "XNZDUDx4MZHTV6UjQwnD8XPVySacBTTMriN53pEg8l4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptClan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptClan.html",
+          "hash": "fJudsfzaXDO2R55KOxjrlg/3jUrRE2u1gkgaiZfxb7Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptDropItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptDropItem.html",
+          "hash": "cGpsfxAJwxuKvSyoUcfWYXXkPjf+x71D92amw7TW1UU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptEnemyUnitAI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptEnemyUnitAI.html",
+          "hash": "Z2487Q95ddMgJBA4ORnrs18FGwBkO2YE6n4OAHi4PFY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptEventPublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptEventPublisher.html",
+          "hash": "cZnGkVt8TywhlSQT8LUJjc8WwDSjhnBEfjfKEd2QxxY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptField.html",
+          "hash": "Xlny8UaBra9803zkdyfhMdL4gwPN2aTW/QV8S6raL88="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptNFT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptNFT.html",
+          "hash": "RRF+AxWFjMRzGvsh/rA9AlLEpdOXgP+jtPayoC9ITgc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptObject.html",
+          "hash": "GADJOMms4NDaYdUGKLu30h8QvGvaVD4U30DWp/gesjg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptParty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptParty.html",
+          "hash": "7R8VI7vD2bCNFkuDLItvMttDrMhADsDbt5AjHUNevH0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptPetUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptPetUnit.html",
+          "hash": "H7DAZtD58BXJlcaZq8f+1Yan0s+aLKoBVgM6Zgpz/tM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptPetUnitAI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptPetUnitAI.html",
+          "hash": "IXYiL6RZnts7CgN1Gi2760lrMTrVtbhdGSVgoHgarfI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptRankingRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptRankingRow.html",
+          "hash": "HyjJnPriD/dIU+aeQhBjM54dljLg9ZiVPCsvlEU4DFQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptRoomPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptRoomPlayer.html",
+          "hash": "TY9gy3Jd7NRQdaX6auu5dZX5D+mvzHVrIH1yHi3BtH8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptServer.html",
+          "hash": "1Uq8h2dYwS2yMp0tADDeL7AZi9i7MoXaq8om4bIH+Rc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptUnit.html",
+          "hash": "bZmNUtpErx+62OxPTteOE5zjuDwpp0INRm7Nm0xEwzg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptUnitBuff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptUnitBuff.html",
+          "hash": "k+lllrkOMKFGBr9F7xeBNNtGneWsXZEtvPk9mudg4XY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.ScriptUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.ScriptUtility.html",
+          "hash": "+09jeKiox2XCfvjaWgh+kFIMhS728utQGlWoqso62sA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.Scripts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.Scripts.html",
+          "hash": "QC5EI48ZiSDLAMr8jYtQs/07CHQF8biStR+qDqUJXkU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.StatusCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.StatusCode.html",
+          "hash": "CkkPGE5X+rwv6+/7koE3aF+mBnplbxwWqvFisaAmzDA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/Commons.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/Commons.Server.html",
+          "hash": "ESUoZeAYkum68sagSppE01Ga3lERBSbDLFCSS6NYclQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api_server/main.md",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/main.html",
+          "hash": "btophjXPgRvbV/HlHjq63g8ySWWrK0uZPlQCylXbBrY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameAnimation.html",
+          "hash": "ts69JHg15WACSCFvrNnHMh/2JrIN1RbNhMmdoEsPfrM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameAnimationCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameAnimationCommand.html",
+          "hash": "RmR6+DugZ11K+t9AmEcJleg59msamsAiI63z3jHzkKA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameBuff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameBuff.html",
+          "hash": "eODgw1xSjfX7i9W6IEhRGd5T0AQOOb2a+ZdNh7xUAuU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameCharacter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameCharacter.html",
+          "hash": "WPO/FjQbWFOIilLHx1cLH1fw+dNPHiJeboHPk4+NdbE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameCollection.html",
+          "hash": "2B0bXRl/qptikRiTq+VUorh4jEoF4MIdDI1QqelF/xY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameCommonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameCommonEvent.html",
+          "hash": "yhOn9qrXtMNRpgDP+R2qF0/RGXjuTcCvdcqZBapB+m0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameDropItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameDropItem.html",
+          "hash": "9GSDivlJiJdJzXaJijnwO05yF0A95nTsgtxTI1VUmOM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameItem.html",
+          "hash": "T9SSKps3tA4WuT1AzNmheepxhXRLTiIVjnK4/vvq7yU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameJob.html",
+          "hash": "bwPpHpUvvldYexQ+kPNrRJx2KsNMosCTbWH29mWu74A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameLayoutPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameLayoutPage.html",
+          "hash": "sSDTDZH+wxVLYVNegyIrLqv400Maxfi5DTRqMflpfx4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameMapStub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameMapStub.html",
+          "hash": "fQfjzw0QF+oqzd96AeaeTuFB8tvy1hOSEtk2u73/8JE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameMonster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameMonster.html",
+          "hash": "agXM7IDC+ACkXvooaTMVbMtZCZjAEqUjrV4VnPIZzFk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGamePanorama.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGamePanorama.html",
+          "hash": "DFUckYFIOexpKXpBgkU/C4GVCqsFfMCe08SC6tsvZaw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameResource.html",
+          "hash": "NpCbacKAIdJHE1a8sIsi5O8qzXcGflg6UweE39rkMIE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameSkill.html",
+          "hash": "224mvaZpw5SD3v0Fmdx7EnpWhYmkwnRBNFvP/BOxscc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameSpriteAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameSpriteAction.html",
+          "hash": "h2mEE36dH5k4Jej6EKfhgTZfeR5e3izBMuirJDkXHNw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameSpriteActionCell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameSpriteActionCell.html",
+          "hash": "gu633QG0i+WrqLigJRHqEbbnLIJGPOMjcnY+va0MoXY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameStrings.html",
+          "hash": "/5ihFYuPL2JxeF/BRfvAXWBfUREgvP1YD4y7OOPkDow="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TGameTileset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TGameTileset.html",
+          "hash": "GmlqNgr4Ss2eh6uT1dhcuMOz61ElDnITecZDgfyPlqg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TItem.html",
+          "hash": "g+FFOqsOBMYCsuIWDEXHRIldTCp5pLYHqQRylp+S/pk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TItemOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TItemOption.html",
+          "hash": "3MD8uLqKpqU9Lr3xcQKiyVUNJJxR6NtZT3B70agdlpo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TOnlinePetData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TOnlinePetData.html",
+          "hash": "a1bZrAymalgtDGkeNFeJftliIK7gnqPsDQHRb27OeyM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.TQuickSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.TQuickSlot.html",
+          "hash": "SlzZXSCPf8mcPDYed0njpLYXwFTMtwE+UFzaXqrFCiA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api_server/network.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_server/network.html",
+          "hash": "FmO9/ddZe5hL8k4xE+HrwQQJX5V3STcmlz0p8lDGbtU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "3EIG/z226vh57Ytl0JGAlB5TEQ4sBbhTAY08nP5ruEQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/howtoapply.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/howtoapply.html",
+          "hash": "WbiRHecZJXuq1hY0YkonhSIOGrWzt1532f1fW6yE+5w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/intro.html",
+          "hash": "q8ZFMdPfr2XLdSID83aQkGtiRruSZm+/sgyAkCmpEpA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 147,
+          "skipped_file_count": 146
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
